@@ -9,6 +9,7 @@ const Navbar = () => {
     <header className="relative">
       <div className="container pt-6 fixed top-0 left-0 right-0">
         <div className="flex justify-between items-center">
+          {/*Desktop View */}
           <Link href="/">
             <Image
               src="/logo.png"
@@ -38,7 +39,7 @@ const Navbar = () => {
               <Link href="/">Contacts</Link>
             </li>
 
-            <button className="semi-bold bg-accent text-white px-6 rounded-3xl py-2 ">
+            <button className="cursor-pointer semi-bold bg-accent text-white px-6 rounded-3xl py-2 hover:bg-accent hover:text-black ease-in-out duration-300 ">
               SignUp
             </button>
           </ul>
