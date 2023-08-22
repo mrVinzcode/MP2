@@ -4,6 +4,7 @@ import Feature from "./components/Feature";
 import Services from "./components/Services";
 import Menu from "./components/Menu";
 import Survey from "./components/Survey";
+import Footer from "./components/Footer";
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
       <Services />
       <Menu />
       <Survey />
+      <Footer />
     </main>
   );
 }
