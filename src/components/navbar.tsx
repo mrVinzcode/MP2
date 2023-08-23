@@ -11,22 +11,17 @@ const Navbar = () => {
         <div className="flex justify-between items-center">
           {/*Desktop View */}
           <Link href="/">
-            <Image
-              src="/logo.png"
-              height={50}
-              width={50}
-              alt="logo"
-              className="bg-acccent"
-            />
+          <Image src="/logo2.png" height={70} width={70} alt="logo" /><p className="semi-bold text-white rounded-3xl" style={{ color: 'rgba(128, 128, 128, 0.7)' }}>한국의 맛</p>
           </Link>
-          <ul className="md:flex hidden gap-8 items-center font-semibold text-[14px]">
+          <ul className="md:flex hidden gap-8 items-center font-semibold text-[14px] text-gray-500" >
             <li className="cursor-pointer text-md uppercase border-white hover:text-accent">
+              {/* Pending TEXT-COLOR Blending */}
               <Link href="/">Home</Link>
             </li>
             <li className="cursor-pointer  text-md uppercase border-white hover:text-accent">
-              <a>
+              {/* <a> */}
                 <Link href="/about">Featured</Link>
-              </a>
+              {/* </a> */}
             </li>
             <li className="cursor-pointer text-md uppercase border-white hover:text-accent">
               <Link href="/servicespage">Services</Link>
