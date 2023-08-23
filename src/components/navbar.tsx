@@ -24,13 +24,15 @@ const Navbar = () => {
               <Link href="/">Home</Link>
             </li>
             <li className="cursor-pointer  text-md uppercase border-white hover:text-accent">
-              <Link href="/">Featured</Link>
+              <a>
+                <Link href="/about">Featured</Link>
+              </a>
             </li>
             <li className="cursor-pointer text-md uppercase border-white hover:text-accent">
-              <Link href="/">Services</Link>
+              <Link href="/services">Services</Link>
             </li>
             <li className="cursor-pointer text-md uppercase border-white hover:text-accent">
-              <Link href="/">Menu</Link>
+              <Link href="/menu">Menu</Link>
             </li>
             <li className="cursor-pointer text-md uppercase border-white hover:text-accent">
               <Link href="/">Testimonials</Link>
@@ -43,7 +45,7 @@ const Navbar = () => {
               SignUp
             </button>
           </ul>
-
+          {/* Mobile Menu */}
           <AiOutlineMenu className="md:hidden text-accent" size={30} />
         </div>
       </div>

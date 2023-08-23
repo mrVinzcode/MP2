@@ -13,7 +13,6 @@ const Hero = () => {
         alt="Hero bg"
       />
       <Navbar />
-
       <div className="container h-[calc(100vh-120px)] grid items-center">
         <div className="space-y-4 bg-[#ffffff98] w-fit p-4">
           <p className="uppercase font-medium">Wide options of choice</p>
