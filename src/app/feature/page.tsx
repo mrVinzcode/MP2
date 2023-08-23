@@ -1,7 +1,7 @@
 import React from "react";
 
-const AboutPage = () => {
+const FeaturePage = () => {
   return <div>No About page pa</div>;
 };
 
-export default AboutPage;
+export default FeaturePage;
