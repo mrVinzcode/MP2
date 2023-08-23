@@ -35,15 +35,17 @@ const Navbar = () => {
               <Link href="/menu">Menu</Link>
             </li>
             <li className="cursor-pointer text-md uppercase border-white hover:text-accent">
-              <Link href="/">Testimonials</Link>
+              <Link href="/testimonials">Testimonials</Link>
             </li>
             <li className="cursor-pointer text-md uppercase border-white hover:text-accent">
               <Link href="/">Contacts</Link>
             </li>
 
-            <button className="cursor-pointer semi-bold bg-accent text-white px-6 rounded-3xl py-2 hover:bg-accent hover:text-black ease-in-out duration-300 ">
-              SignUp
-            </button>
+            <Link href="/signup">
+              <button className="cursor-pointer semi-bold bg-accent text-white px-6 rounded-3xl py-2 hover:bg-accent hover:text-black ease-in-out duration-300 ">
+                SignUp
+              </button>
+            </Link>
           </ul>
           {/* Mobile Menu */}
           <AiOutlineMenu className="md:hidden text-accent" size={30} />

@@ -1,9 +1,8 @@
-import Hero from "../components/hero";
-import Feature from "../components/Feature";
-import Services from "../components/Services";
-import Menu from "../components/Menu";
-import Footer from "../components/Footer";
-import Testimonials from "../components/Testimonials";
+import Testimonials from "@/components/Testimonials";
+import Menu from "@/components/Menu";
+import Services from "@/components/Services";
+import Feature from "@/components/Feature";
+import Hero from "@/components/hero";
 
 export default function Home() {
   return (
@@ -13,7 +12,6 @@ export default function Home() {
       <Services />
       <Menu />
       <Testimonials />
-      <Footer />
     </main>
   );
 }

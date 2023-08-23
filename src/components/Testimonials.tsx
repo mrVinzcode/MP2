@@ -4,7 +4,7 @@ import Dash from "./Dash";
 
 const Testimonials = () => {
   return (
-    <section className="text-gray-700 body-font pt-36">
+    <section className="text-gray-700 body-font pt-16">
       <div className="container px-5 py-24 mx-auto">
         <h1 className="text-3xl font-medium title-font text-gray-900 mb-12 text-center uppercase">
           Testimonials
@@ -26,7 +26,7 @@ const Testimonials = () => {
                 pinterest fanny pack venmo, post-ironic heirloom try-hard pabst
                 authentic iceland.
               </p>
-              <a className="inline-flex items-center">
+              <div className="inline-flex items-center">
                 <Image
                   alt="testimonial"
                   src="https://dummyimage.com/106x106"
@@ -40,7 +40,7 @@ const Testimonials = () => {
                   </span>
                   <span className="text-gray-500 text-sm">UI DEVELOPER</span>
                 </span>
-              </a>
+              </div>
             </div>
           </div>
           <div className="p-4 md:w-1/2 w-full">
@@ -92,7 +92,7 @@ const Testimonials = () => {
                 pinterest fanny pack venmo, post-ironic heirloom try-hard pabst
                 authentic iceland.
               </p>
-              <a className="inline-flex items-center">
+              <div className="inline-flex items-center">
                 <Image
                   alt="testimonial"
                   src="https://dummyimage.com/107x107"
@@ -106,7 +106,7 @@ const Testimonials = () => {
                   </span>
                   <span className="text-gray-500 text-sm">DESIGNER</span>
                 </span>
-              </a>
+              </div>
             </div>
           </div>
           <div className="p-4 md:w-1/2 w-full">
@@ -158,7 +158,7 @@ const Testimonials = () => {
                 pinterest fanny pack venmo, post-ironic heirloom try-hard pabst
                 authentic iceland.
               </p>
-              <a className="inline-flex items-center">
+              <div className="inline-flex items-center">
                 <Image
                   alt="testimonial"
                   src="https://dummyimage.com/107x107"
@@ -172,7 +172,7 @@ const Testimonials = () => {
                   </span>
                   <span className="text-gray-500 text-sm">DESIGNER</span>
                 </span>
-              </a>
+              </div>
             </div>
           </div>
           <div className="p-4 md:w-1/2 w-full">
@@ -191,7 +191,7 @@ const Testimonials = () => {
                 pinterest fanny pack venmo, post-ironic heirloom try-hard pabst
                 authentic iceland.
               </p>
-              <a className="inline-flex items-center">
+              <div className="inline-flex items-center">
                 <Image
                   alt="testimonial"
                   src="https://dummyimage.com/107x107"
@@ -205,7 +205,7 @@ const Testimonials = () => {
                   </span>
                   <span className="text-gray-500 text-sm">DESIGNER</span>
                 </span>
-              </a>
+              </div>
             </div>
           </div>
         </div>
