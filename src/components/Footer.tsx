@@ -9,8 +9,10 @@ const Footer = () => {
         <div className="space-y-4">
           <h2 className="text-xl font-bold">About Us</h2>
           <p className="leading-[1.8]">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem ut
-            expedita molestias repudiandae pariatur fuga ab, molestiae velit
+            Welcome to our world of Korean culinary delights! We are Melvin
+            Mangubat and Johoney Bernardino, two passionate food enthusiasts who
+            embarked on a journey to bring the vibrant flavors of Korea to your
+            fingertips through our innovative Korean food app.
           </p>
         </div>
 
