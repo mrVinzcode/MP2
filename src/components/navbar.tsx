@@ -34,17 +34,17 @@ const Navbar = () => {
               <Link href="/feature">Featured</Link>
               {/* </a> */}
             </li>
-            <li className="cursor-pointer text-md uppercase border-white hover:text-accent">
+            {/* <li className="cursor-pointer text-md uppercase border-white hover:text-accent">
               <Link href="/servicespage">Services</Link>
-            </li>
+            </li> */}
             <li className="cursor-pointer text-md uppercase border-white hover:text-accent">
               <Link href="/menu">Menu</Link>
             </li>
-            <li className="cursor-pointer text-md uppercase border-white hover:text-accent">
+            {/* <li className="cursor-pointer text-md uppercase border-white hover:text-accent">
               <Link href="/testimonials">Testimonials</Link>
-            </li>
+            </li> */}
             <li className="cursor-pointer text-md uppercase border-white hover:text-accent">
-              <Link href="/">Contacts</Link>
+              <Link href="/contact">Contacts</Link>
             </li>
 
             <Link href="/signup">
@@ -102,7 +102,7 @@ const Navbar = () => {
                 onClick={() => setMenuOpen(false)}
                 className="py-2 hover:bg-accent text-center p-10 my-2"
               >
-                <Link href="/">Contact</Link>
+                <Link href="/contact">Contacts</Link>
               </li>
               <Link href="/signup">
                 <button

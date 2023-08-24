@@ -24,17 +24,22 @@ const Footer = () => {
               <Link href="/about">About Us</Link>
             </li>
             <li>Chefs</li>
-            <li>Events</li>
-            <li>Contact</li>
+            <li>?</li>
+            <li>?</li>
           </ul>
         </div>
 
         <div>
           <div className="flex gap-8 text-accent text-2xl pt-16">
-            <FaFacebookF />
-            <FaLinkedinIn />
-            <BsTwitter />
-            <BsPinterest />
+            <a href="https://www.facebook.com/" target="_blank">
+              <FaFacebookF />
+            </a>
+            <a href="https://www.linkedin.com/login">
+              <FaLinkedinIn />
+            </a>
+            <a href="https://twitter.com/">
+              <BsTwitter />
+            </a>
           </div>
         </div>
       </div>

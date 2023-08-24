@@ -12,14 +12,14 @@ const About = () => {
             In the heart of our culinary exploration stand
             <strong> Melvin Mangubat </strong> and
             <strong> Johoney Bernardino </strong>, the co-creators of a
-            remarkable Korean food app that has brought the essence of Korea's
-            rich cuisine to the digital realm. Their story begins with a shared
-            fascination for the intricate flavors and traditions that
-            characterize Korean dishes. As part of their mini project, Melvin
-            and Johoney embarked on a mission to translate this passion into a
-            tangible creation. The result? A beautifully designed app that
-            encapsulates the spirit of Korean cooking and invites users on an
-            immersive gastronomic journey. From the sizzle of bulgogi on the
+            remarkable Korean food app that has brought the essence of
+            Korea&rsquo;s rich cuisine to the digital realm. Their story begins
+            with a shared fascination for the intricate flavors and traditions
+            that characterize Korean dishes. As part of their mini project,
+            Melvin and Johoney embarked on a mission to translate this passion
+            into a tangible creation. The result? A beautifully designed app
+            that encapsulates the spirit of Korean cooking and invites users on
+            an immersive gastronomic journey. From the sizzle of bulgogi on the
             grill to the comforting aroma of bubbling jjigae, every dish on the
             app tells a story. With meticulous care, Melvin and Johoney curated
             a selection of recipes that not only guide users through the cooking
@@ -29,15 +29,16 @@ const About = () => {
             transcend geographical boundaries. Melvin and Johoney envision their
             app as a connector, a means for food enthusiasts from all corners of
             the world to experience the magic of Korean cuisine in their own
-            kitchens. In their own words, "Our app is an invitation to join us
-            on a voyage of flavors. It's not just about the recipes; it's about
-            the stories, the techniques, and the shared moments that a good meal
-            brings." So, whether you're a kitchen novice eager to explore new
-            tastes or an experienced cook seeking to broaden your culinary
-            repertoire, Melvin and Johoney's Korean food app promises to be your
-            companion in culinary adventure. Join them as they celebrate the art
-            of Korean cooking and embark on a flavorful journey that bridges
-            cultures and sparks the joy of good food shared.
+            kitchens. In their own words, &quot;Our app is an invitation to join
+            us on a voyage of flavors. It&rsquo;s not just about the recipes;
+            it&rsquo;s about the stories, the techniques, and the shared moments
+            that a good meal brings.&quot; So, whether you&rsquo;re a kitchen
+            novice eager to explore new tastes or an experienced cook seeking to
+            broaden your culinary repertoire, Melvin and Johoney&rsquo;s Korean
+            food app promises to be your companion in culinary adventure. Join
+            them as they celebrate the art of Korean cooking and embark on a
+            flavorful journey that bridges cultures and sparks the joy of good
+            food shared.
           </p>
           <p className="text-left">Savor the journey,</p> <br />
           <p className="text-left">
