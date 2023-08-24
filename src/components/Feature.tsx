@@ -21,8 +21,8 @@ const Feature = () => {
       <div className="grid md:grid-cols-[1fr,37%,1fr] gap-16 mt-10">
         <div className="w-fit mx-auto self-end">
           <Image
-            className="w-[100%] max-w-[400px] sm:max-w-full h-auto shadow-2xl"
-            src="/grid__1.png"
+            className="w-[100%] max-w-[400px] rounded-sm sm:max-w-full h-auto shadow-2xl"
+            src="/grid_1.png"
             width={300}
             height={600}
             alt="grid image"
@@ -30,46 +30,49 @@ const Feature = () => {
 
           <div className="space-y-4">
             <Dash />
-            <h2 className="font-medium text-xl">Shrimp Salad</h2>
+            <h2 className="font-medium text-xl">Korean Bibimbap</h2>
             <p className="text-gray-700 text-[14px] xl:text-[16px]">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vel
-              repellendus laudantium doloribus architecto. Modi ipsa error illo
+              &quot;Korean Bibimbap: A Colorful Harmony of Fresh Ingredients.
+              Each Bowl Offers a Burst of Flavors and Textures, a Journey
+              Through Korean Cuisine.&quot;
             </p>
           </div>
         </div>
 
         <div className="w-fit mx-auto">
           <Image
-            className="w-[100%] max-w-[400px] sm:max-w-full h-auto shadow-2xl"
-            src="/grid__2.png"
+            className="w-[100%] max-w-[400px] sm:max-w-full h-auto rounded-sm shadow-2xl"
+            src="/grid_2.png"
             width={500}
             height={900}
             alt="grid image"
           />
           <div className="space-y-4">
             <Dash />
-            <h2 className="font-medium text-xl">Shrimp Salad</h2>
+            <h2 className="font-medium text-xl">Korean Gimbap</h2>
             <p className="text-gray-700 text-[14px] xl:text-[16px]">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vel
-              repellendus laudantium doloribus architecto. Modi ipsa error illo
+              &quot;Korean Gimbap: A Flavorful Symphony Rolled into Every Bite.
+              Fresh Ingredients, Delightful Textures, and a Taste of
+              Korea&rsquo;s Culinary Artistry.&quot;
             </p>
           </div>
         </div>
 
         <div className="w-fit mx-auto self-end">
           <Image
-            className="w-[100%] max-w-[400px] sm:max-w-full h-auto shadow-2xl"
-            src="/grid__3.png"
+            className="w-[100%] max-w-[400px] rounded-sm sm:max-w-full h-auto shadow-2xl"
+            src="/grid_3.png"
             width={500}
             height={900}
             alt="grid image"
           />
           <div className="space-y-4">
             <Dash />
-            <h2 className="font-medium text-xl">Shrimp Salad</h2>
+            <h2 className="font-medium text-xl">Korean Fried Chicken</h2>
             <p className="text-gray-700 text-[14px] xl:text-[16px]">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vel
-              repellendus laudantium doloribus architecto. Modi ipsa error illo
+              &quot;Korean Fried Chicken: Irresistibly Crispy, Bursting with
+              Bold Flavors. A Crunchy Delight That Takes Taste to New
+              Heights!&quot;
             </p>
           </div>
         </div>
