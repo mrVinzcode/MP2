@@ -19,7 +19,7 @@ const ServicesCard: React.FC<propsType> = ({ img, title, desc }) => {
           alt={title}
         />
 
-        <div className="uppercase">
+        <div className="uppercase font-bold">
           {title}
           <div className="flex gap-2 w-fit mx-auto mt-2">
             <div className="bg-accent w-[7px] h-[7px] rounded-full" />
