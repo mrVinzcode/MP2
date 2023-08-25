@@ -5,7 +5,7 @@ import Link from "next/link";
 
 const Footer = () => {
   return (
-    <section className="container pt-40">
+    <footer className="container pt-40">
       <div className="grid md:grid-cols-3 gap-16">
         <div className="space-y-4">
           <h2 className="text-xl font-bold">About Us</h2>
@@ -43,7 +43,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
-    </section>
+    </footer>
   );
 };
 
