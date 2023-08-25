@@ -10,7 +10,7 @@ const Feature = () => {
         Featured <span className="text-accent">Food</span>
       </h2>
 
-      <p className="max-w-[550px] pt-10 text-gray-700">
+      <p className="max-w-[800px] pt-10 text-gray-700 text-2xl">
         &quot;Experience a feast of authentic Korean flavors at our table! From
         the irresistible crunch of Korean fried chicken to the colorful artistry
         of bibimbap and the delightful rolls of gimbap, each dish tells a story

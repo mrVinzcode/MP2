@@ -28,7 +28,7 @@ const ServicesCard: React.FC<propsType> = ({ img, title, desc }) => {
           </div>
         </div>
 
-        <p className="text-[14px] text-gray-700">{desc}</p>
+        <p className="text-[20px] font-light text-gray-700">{desc}</p>
       </div>
     </div>
   );
