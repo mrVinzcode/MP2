@@ -31,7 +31,7 @@ const Navbar = () => {
             </li>
             <li className="cursor-pointer  text-md uppercase border-white hover:text-accent">
               {/* <a> */}
-              <Link href="/feature">Featured</Link>
+              <Link href="/feature">Features</Link>
               {/* </a> */}
             </li>
             {/* <li className="cursor-pointer text-md uppercase border-white hover:text-accent">
@@ -49,7 +49,7 @@ const Navbar = () => {
 
             <Link href="/signup">
               <button className="cursor-pointer semi-bold bg-accent text-white px-6 rounded-3xl py-2 hover:bg-accent hover:text-black duration-150 ease-in-out ">
-                SignUp
+                Reserve Now!
               </button>
             </Link>
           </ul>
@@ -109,7 +109,7 @@ const Navbar = () => {
                   onClick={() => setMenuOpen(false)}
                   className="my-2 p-10 text-center cursor-pointer semi-bold bg-accent text-white rounded-3xl py-2 hover:bg-accent hover:text-black duration-150 ease-in-out "
                 >
-                  SignUp
+                  Reserve Now!
                 </button>
               </Link>
             </ul>
