@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import Navbar from "./navbar";
+import Link from "next/link";
 
 const Hero = () => {
   return (
@@ -24,14 +25,14 @@ const Hero = () => {
             Where every Flavor tells a story.
           </p>
           <h2 className="text-4xl sm:text-6xl font-bold">
-            Let's <span className="text-accent">Koreanize</span>
+            Let&rsquo;s <span className="text-accent">Koreanize</span>
           </h2>
           <p className="space-y-4 text-gray-700 text-[14px] sm:text-[16px]">
             Explore Authentic Korean Food. A Culinary Adventure Awaits!
           </p>
           <p>What are you waiting for</p>
           <button className="bg-accent text-white px-6 py-2 rounded-3xl text-[14px] sm:-[16px]">
-            View More
+            <Link href="/menu"> View More</Link>
           </button>
         </div>
       </div>
