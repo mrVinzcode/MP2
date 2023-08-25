@@ -11,9 +11,12 @@ const Feature = () => {
       </h2>
 
       <p className="max-w-[550px] pt-10 text-gray-700">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad placeat ea
-        earum amet, et itaque modi ipsam rem dicta. Molestias vel aperiam
-        tempora necessitatibus consectetur laboriosam aut atque repellat? Id.
+        &quot;Experience a feast of authentic Korean flavors at our table! From
+        the irresistible crunch of Korean fried chicken to the colorful artistry
+        of bibimbap and the delightful rolls of gimbap, each dish tells a story
+        of tradition and taste. Join us in savoring these iconic flavors and
+        embark on a culinary journey through Korea&rsquo;s finest
+        delicacies!&quot;
       </p>
 
       <Dash />
