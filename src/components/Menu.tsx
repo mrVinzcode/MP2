@@ -56,7 +56,7 @@ const menuData = [
 
 const Menu = () => {
   return (
-    <div className="container pt-40">
+    <section className="container pt-40">
       <div className="space-y-4 w-fit mx-auto text-center">
         <h2 className="text-4xl md:text-6xl font-bold">
           Our <span className="text-accent">Menu</span>
@@ -105,7 +105,7 @@ const Menu = () => {
           ))}
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

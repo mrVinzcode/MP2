@@ -22,7 +22,7 @@ const servicesData = [
 
 const Services = () => {
   return (
-    <div className="container pt-40">
+    <section className="container pt-40">
       <div className="space-y-4 w-fit mx-auto text-center">
         <h2 className="text-4xl md:text-6xl font-bold">
           Choose Best <span className="text-accent">Service</span>
@@ -46,7 +46,7 @@ const Services = () => {
           />
         ))}
       </div>
-    </div>
+    </section>
   );
 };
 

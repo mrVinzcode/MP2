@@ -5,7 +5,7 @@ import Link from "next/link";
 
 const Hero = () => {
   return (
-    <div className="relative min-h-screen">
+    <section className="relative min-h-screen">
       <video
         className="w-full h-auto absolute right-0 top-0 -z-10 object-cover opacity-80"
         autoPlay
@@ -36,7 +36,7 @@ const Hero = () => {
           </button>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

@@ -10,7 +10,7 @@ interface propsType {
 
 const MenuCard: React.FC<propsType> = ({ img, title, desc, price }) => {
   return (
-    <div className="flex gap-2">
+    <section className="flex gap-2">
       <Image
         className="w-[80px] h-[80px]"
         src={img}
@@ -25,7 +25,7 @@ const MenuCard: React.FC<propsType> = ({ img, title, desc, price }) => {
           <p className="text-accent">{price}</p>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

@@ -4,7 +4,7 @@ import Image from "next/image";
 
 const Feature = () => {
   return (
-    <div className="container pt-20">
+    <section className="container pt-20">
       <h2 className="text-6xl font-bold">Our</h2>
       <h2 className="text-6xl font-bold pt-2">
         Featured <span className="text-accent">Food</span>
@@ -80,7 +80,7 @@ const Feature = () => {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 
