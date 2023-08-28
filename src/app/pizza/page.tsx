@@ -1,53 +1,13 @@
 import React from "react";
-import Dash from "./Dash";
+import Dash from "@/components/Dash";
 import Image from "next/image";
-import Link from "next/link";
 
-// const menuData = [
-//   {
-//     img: "/menu_recipe/appetizer/calamari.png",
-//     title: "calamari",
-//     desc: "Lorem Ipsum is the world's leading authority on the oldesto  health",
-//     price: "$100",
-//   },
-//   {
-//     img: "/menu_recipe/appetizer/fried_dumplings.png",
-//     title: "fried_dumplings",
-//     desc: "Lorem Ipsum is the world's leading authority on the oldesto  health",
-//     price: "$100",
-//   },
-//   {
-//     img: "/menu_recipe/appetizer/fried_fish.png",
-//     title: "fried_fish",
-//     desc: "Lorem Ipsum is the world's leading authority on the oldesto  health",
-//     price: "$100",
-//   },
-//   {
-//     img: "/menu_recipe/appetizer/long_rice.png",
-//     title: "Long Rice",
-//     desc: "Lorem Ipsum is the world's leading authority on the oldesto  health",
-//     price: "$100",
-//   },
-//   {
-//     img: "/menu_recipe/appetizer/seafoodpancake_tizer_1.png",
-//     title: "Sea Food Pancake",
-//     desc: "Lorem Ipsum is the world's leading authority on the oldesto  health",
-//     price: "$100",
-//   },
-//   {
-//     img: "/menu_recipe/appetizer/tempura.png",
-//     title: "Tempura",
-//     desc: "Lorem Ipsum is the world's leading authority on the oldesto  health",
-//     price: "$100",
-//   },
-// ];
-
-const Menu = () => {
+const Pizza = () => {
   return (
     <section className="container pt-40">
       <div className="space-y-4 w-fit mx-auto text-center">
         <h2 className="text-4xl md:text-6xl font-bold">
-          Our <span className="text-accent">Menu</span>
+          Our <span className="text-accent">Pizza</span>
         </h2>
         <p className="text-gray-700 max-w-[900px]">
           Indulge in the rich and authentic flavors of Korean cuisine at
@@ -70,115 +30,16 @@ const Menu = () => {
                 <Image
                   alt="ecommerce"
                   className="object-cover object-center w-full h-full block"
-                  src="/menu_recipe/appetizer/fried_dumplings.png"
-                  width={420}
-                  height={260}
-                />
-              </a>
-              <div className="mt-4">
-                <h3 className="text-gray-500 text-xs tracking-widest title-font mb-1">
-                  Appetizers
-                </h3>
-                <h2 className="text-gray-900 title-font text-lg font-medium">
-                  Fried Dumplings
-                </h2>
-                <p className="mt-1">$16.00</p>
-
-                <button className="text-accent py-4">
-                  <Link href="/appetizer">See more</Link>
-                </button>
-              </div>
-            </div>
-            <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
-              <a className="block relative h-48 rounded overflow-hidden">
-                <Image
-                  alt="ecommerce"
-                  className="object-cover object-center w-full h-full block"
-                  src="/menu_recipe/meat_fish/bulgogi.png"
-                  width={420}
-                  height={260}
-                />
-              </a>
-              <div className="mt-4">
-                <h3 className="text-gray-500 text-xs tracking-widest title-font mb-1">
-                  Meat & Fish
-                </h3>
-                <h2 className="text-gray-900 title-font text-lg font-medium">
-                  Bulgogi
-                </h2>
-                <p className="mt-1">$21.15</p>
-                <button className="text-accent py-4">
-                  <Link href="/meat_fish">See More</Link>
-                </button>
-              </div>
-            </div>
-            <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
-              <a className="block relative h-48 rounded overflow-hidden">
-                <Image
-                  alt="ecommerce"
-                  className="object-cover object-center w-full h-full block"
                   src="/menu_recipe/pizza/Bulgogi-Pizza.png"
                   width={420}
                   height={260}
                 />
               </a>
               <div className="mt-4">
-                <h3 className="text-gray-500 text-xs tracking-widest title-font mb-1">
-                  Pizza
-                </h3>
                 <h2 className="text-gray-900 title-font text-lg font-medium">
                   Bulgogi Pizza
                 </h2>
-                <p className="mt-1">$12.00</p>
-                <button className="text-accent py-4">
-                  <Link href="/pizza">See More</Link>
-                </button>
-              </div>
-            </div>
-            <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
-              <a className="block relative h-48 rounded overflow-hidden">
-                <Image
-                  alt="ecommerce"
-                  className="object-cover object-center w-full h-full block"
-                  src="/menu_recipe/salad/potato_salad.png"
-                  width={420}
-                  height={260}
-                />
-              </a>
-              <div className="mt-4">
-                <h3 className="text-gray-500 text-xs tracking-widest title-font mb-1">
-                  Salad
-                </h3>
-                <h2 className="text-gray-900 title-font text-lg font-medium">
-                  Potato Salad
-                </h2>
-                <p className="mt-1">$18.40</p>
-                <button className="text-accent py-4">
-                  <Link href="/salad">See More</Link>
-                </button>
-              </div>
-            </div>
-            <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
-              <a className="block relative h-48 rounded overflow-hidden">
-                <Image
-                  alt="ecommerce"
-                  className="object-cover object-center w-full h-full block"
-                  src="/menu_recipe/soup/soft_tofu.png"
-                  width={420}
-                  height={260}
-                />
-              </a>
-              <div className="mt-4">
-                <h3 className="text-gray-500 text-xs tracking-widest title-font mb-1">
-                  Soup
-                </h3>
-                <h2 className="text-gray-900 title-font text-lg font-medium">
-                  Soft Tofu Stew
-                </h2>
                 <p className="mt-1">$16.00</p>
-                <button className="text-accent py-4">
-                  <Link href="/soup">See More</Link>
-                </button>
               </div>
             </div>
             <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
@@ -186,22 +47,16 @@ const Menu = () => {
                 <Image
                   alt="ecommerce"
                   className="object-cover object-center w-full h-full block"
-                  src="/menu_recipe/deserts/easy_dango.png"
+                  src="/menu_recipe/pizza/corn_pizza.png"
                   width={420}
                   height={260}
                 />
               </a>
               <div className="mt-4">
-                <h3 className="text-gray-500 text-xs tracking-widest title-font mb-1">
-                  Deserts
-                </h3>
                 <h2 className="text-gray-900 title-font text-lg font-medium">
-                  Easy Dango
+                  Corn Pizza
                 </h2>
                 <p className="mt-1">$21.15</p>
-                <button className="text-accent py-4">
-                  <Link href="/desert">See More</Link>
-                </button>
               </div>
             </div>
             <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
@@ -209,34 +64,108 @@ const Menu = () => {
                 <Image
                   alt="ecommerce"
                   className="object-cover object-center w-full h-full block"
-                  src="/menu_recipe/drinks/soju_yakult.png"
+                  src="/menu_recipe/pizza/Spicy-Korean-Kimchi-Pizza.png"
                   width={420}
                   height={260}
                 />
               </a>
               <div className="mt-4">
-                <h3 className="text-gray-500 text-xs tracking-widest title-font mb-1">
-                  Drinks
-                </h3>
                 <h2 className="text-gray-900 title-font text-lg font-medium">
-                  Soju Yakult
+                  Spicy Korean Kimchi Pizza
                 </h2>
                 <p className="mt-1">$12.00</p>
-                <button className="text-accent py-4">
-                  <Link href="/drinks">See More</Link>
-                </button>
               </div>
             </div>
+            <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
+              <a className="block relative h-48 rounded overflow-hidden">
+                <Image
+                  alt="ecommerce"
+                  className="object-cover object-center w-full h-full block"
+                  src="/menu_recipe/pizza/sweet_potato.png"
+                  width={420}
+                  height={260}
+                />
+              </a>
+              <div className="mt-4">
+                <h2 className="text-gray-900 title-font text-lg font-medium">
+                  Sweet Potato
+                </h2>
+                <p className="mt-1">$18.40</p>
+              </div>
+            </div>
+            {/* <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
+              <a className="block relative h-48 rounded overflow-hidden">
+                <Image
+                  alt="ecommerce"
+                  className="object-cover object-center w-full h-full block"
+                  src="/menu_recipe/pizza/kimchi_friedrice.png"
+                  width={420}
+                  height={260}
+                />
+              </a>
+              <div className="mt-4">
+                <h2 className="text-gray-900 title-font text-lg font-medium">
+                  Kimchi Fried Rice
+                </h2>
+                <p className="mt-1">$16.00</p>
+              </div>
+            </div>
+            <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
+              <a className="block relative h-48 rounded overflow-hidden">
+                <Image
+                  alt="ecommerce"
+                  className="object-cover object-center w-full h-full block"
+                  src="/menu_recipe/pizza/pigs_feet.png"
+                  width={420}
+                  height={260}
+                />
+              </a>
+              <div className="mt-4">
+                <h2 className="text-gray-900 title-font text-lg font-medium">
+                  Pig's Feet
+                </h2>
+                <p className="mt-1">$21.15</p>
+              </div>
+            </div>
+            <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
+              <a className="block relative h-48 rounded overflow-hidden">
+                <Image
+                  alt="ecommerce"
+                  className="object-cover object-center w-full h-full block"
+                  src="/menu_recipe/pizza/samgaetang.png"
+                  width={420}
+                  height={260}
+                />
+              </a>
+              <div className="mt-4">
+                <h2 className="text-gray-900 title-font text-lg font-medium">
+                  Samgaetang
+                </h2>
+                <p className="mt-1">$21.15</p>
+              </div>
+            </div>
+            <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
+              <a className="block relative h-48 rounded overflow-hidden">
+                <Image
+                  alt="ecommerce"
+                  className="object-cover object-center w-full h-full block"
+                  src="/menu_recipe/pizza/samgyupsal.png"
+                  width={420}
+                  height={260}
+                />
+              </a>
+              <div className="mt-4">
+                <h2 className="text-gray-900 title-font text-lg font-medium">
+                  Samgyupsal
+                </h2>
+                <p className="mt-1">$21.15</p>
+              </div>
+            </div> */}
           </div>
-        </div>
-        <div className="text-center ">
-          {/* <button className="bg-accent text-white px-8 py-4 rounded-3xl text-[20px] sm:-[16px] hover:text-black">
-            <a href="/menu_list">View More</a>
-          </button> */}
         </div>
       </div>
     </section>
   );
 };
 
-export default Menu;
+export default Pizza;

@@ -55,19 +55,19 @@ const Navbar = () => {
 
           <AiOutlineMenu
             onClick={toggleMenu}
-            className="text-accent md:hidden mb-10 cursor-pointer"
+            className="text-accent sm:hidden mb-10 cursor-pointer"
             size={30}
           />
           <div
             className={
               menuOpen
-                ? "fixed top-0 left-0 w-[-75%] md:hidden h-screen p-10 ease-in-out duration-500 bg-slate-800"
+                ? "fixed top-0 left-0 w-[-75%]  md:hidden h-screen p-10 ease-in-out duration-500 bg-slate-800"
                 : "fixed left-[-100%] top-0 p-10 ease-in-out duration-500"
             }
           >
             <div className="flex w-full items-center justify-end">
               <div onClick={toggleMenu} className="cursor-pointer">
-                <AiOutlineClose className="text-accent" size={30} />
+                <AiOutlineClose className="text-accent " size={30} />
               </div>
             </div>
             {/* Mobile Menu Links*/}
@@ -100,7 +100,7 @@ const Navbar = () => {
                 onClick={() => setMenuOpen(false)}
                 className="py-2 hover:bg-accent text-center p-10 my-2"
               >
-                <a href="#contact">Contacts</a>
+                <a href="/contact">Contacts</a>
               </li>
               <Link href="/signup">
                 <button
