@@ -1,32 +1,32 @@
-import Image from "next/image";
-import React from "react";
+// import Image from "next/image";
+// import React from "react";
 
-interface propsType {
-  img: string;
-  title: string;
-  desc: string;
-  price: string;
-}
+// interface propsType {
+//   img: string;
+//   title: string;
+//   desc: string;
+//   price: string;
+// }
 
-const MenuCard: React.FC<propsType> = ({ img, title, desc, price }) => {
-  return (
-    <section className="flex gap-2">
-      <Image
-        className="w-[80px] h-[80px]"
-        src={img}
-        width={80}
-        height={80}
-        alt="dish"
-      />
-      <div className="space-y-2">
-        <div>
-          <h2>{title}</h2>
-          <div className="text-[14px] text-gray-600 pt-1">{desc}</div>
-          <p className="text-accent">{price}</p>
-        </div>
-      </div>
-    </section>
-  );
-};
+// const MenuCard: React.FC<propsType> = ({ img, title, desc, price }) => {
+//   return (
+//     <section className="flex gap-2">
+//       <Image
+//         className="w-[80px] h-[80px]"
+//         src={img}
+//         width={80}
+//         height={80}
+//         alt="dish"
+//       />
+//       <div className="space-y-2">
+//         <div>
+//           <h2>{title}</h2>
+//           <div className="text-[14px] text-gray-600 pt-1">{desc}</div>
+//           <p className="text-accent">{price}</p>
+//         </div>
+//       </div>
+//     </section>
+//   );
+// };
 
-export default MenuCard;
+// export default MenuCard;

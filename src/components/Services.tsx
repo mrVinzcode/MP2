@@ -22,7 +22,7 @@ const servicesData = [
 
 const Services = () => {
   return (
-    <section className="container pt-40">
+    <section className="container pt-40" id="services">
       <div className="space-y-4 w-fit mx-auto text-center">
         <h2 className="text-4xl md:text-6xl font-bold">
           Premium Quality <span className="text-accent">Services</span>
