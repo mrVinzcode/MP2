@@ -27,7 +27,7 @@ const Services = () => {
         <h2 className="text-4xl md:text-6xl font-bold">
           Premium Quality <span className="text-accent">Services</span>
         </h2>
-        <p className="text-gray-700 text-2xl max-w-[750px]">
+        <p className="text-gray-700 text-xl max-w-[750px]">
           &quot;Indulge in our Premium Quality Services, where every detail is
           crafted to exceed your expectations. Experience a level of excellence
           that is second to none. Your satisfaction is our priority, and

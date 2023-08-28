@@ -55,7 +55,7 @@ const Navbar = () => {
 
           <AiOutlineMenu
             onClick={toggleMenu}
-            className="text-accent sm:hidden mb-10 cursor-pointer"
+            className="text-accent md:hidden mb-10 cursor-pointer"
             size={30}
           />
           <div

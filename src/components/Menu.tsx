@@ -3,53 +3,14 @@ import Dash from "./Dash";
 import Image from "next/image";
 import Link from "next/link";
 
-// const menuData = [
-//   {
-//     img: "/menu_recipe/appetizer/calamari.png",
-//     title: "calamari",
-//     desc: "Lorem Ipsum is the world's leading authority on the oldesto  health",
-//     price: "$100",
-//   },
-//   {
-//     img: "/menu_recipe/appetizer/fried_dumplings.png",
-//     title: "fried_dumplings",
-//     desc: "Lorem Ipsum is the world's leading authority on the oldesto  health",
-//     price: "$100",
-//   },
-//   {
-//     img: "/menu_recipe/appetizer/fried_fish.png",
-//     title: "fried_fish",
-//     desc: "Lorem Ipsum is the world's leading authority on the oldesto  health",
-//     price: "$100",
-//   },
-//   {
-//     img: "/menu_recipe/appetizer/long_rice.png",
-//     title: "Long Rice",
-//     desc: "Lorem Ipsum is the world's leading authority on the oldesto  health",
-//     price: "$100",
-//   },
-//   {
-//     img: "/menu_recipe/appetizer/seafoodpancake_tizer_1.png",
-//     title: "Sea Food Pancake",
-//     desc: "Lorem Ipsum is the world's leading authority on the oldesto  health",
-//     price: "$100",
-//   },
-//   {
-//     img: "/menu_recipe/appetizer/tempura.png",
-//     title: "Tempura",
-//     desc: "Lorem Ipsum is the world's leading authority on the oldesto  health",
-//     price: "$100",
-//   },
-// ];
-
 const Menu = () => {
   return (
     <section className="container pt-40">
       <div className="space-y-4 w-fit mx-auto text-center">
-        <h2 className="text-4xl md:text-6xl font-bold">
+        <h2 className="text-6xl md:text-4xl font-bold">
           Our <span className="text-accent">Menu</span>
         </h2>
-        <p className="text-gray-700 max-w-[900px]">
+        <p className="text-gray-700 text-xl max-w-[900px]">
           Indulge in the rich and authentic flavors of Korean cuisine at
           <span className="text-accent text-xl"> Taste of Seoul</span>. Our menu
           is carefully crafted to bring you a delightful culinary experience,
