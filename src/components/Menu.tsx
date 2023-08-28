@@ -190,11 +190,7 @@ const Menu = () => {
             </div>
           </div>
         </div>
-        <div className="text-center ">
-          {/* <button className="bg-accent text-white px-8 py-4 rounded-3xl text-[20px] sm:-[16px] hover:text-black">
-            <a href="/menu_list">View More</a>
-          </button> */}
-        </div>
+        <div className="text-center "></div>
       </div>
     </section>
   );
