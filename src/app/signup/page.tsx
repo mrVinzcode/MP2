@@ -38,17 +38,22 @@ const SignupPage = () => {
           <button className="text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg">
             Button
           </button>
-          <p className="text-xs text-gray-500 mt-3">
-            Literally you probably havent heard of them jean shorts.
-          </p>
+          <p className="text-xs text-gray-500 mt-3"></p>
         </div>
         <div className="lg:w-2/3 md:w-1/2 sm:pt-10 md:pr-10 lg:pl-6 pr-6">
           <h1 className="title-font font-medium text-3xl text-gray-900">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+            🥢 Welcome to Taste of Seoul! 🥢
           </h1>
-          <p className="leading-relaxed mt-4">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-            Praesentium harum,
+          <p className="leading-relaxed mt-4 max-w-[500px] text-center">
+            🌟 Why Join Taste of Seoul? 🌟 <br /> Explore Authentic Recipes:
+            Discover traditional and modern Korean recipes curated by our expert
+            chefs. 📸 <br />
+            Foodie Community: Share your own culinary creations, tips, and
+            experiences with fellow Korean food enthusiasts. 🔔 Personalized 🎉
+            Exclusive Offers: Enjoy special discounts and promotions on Korean
+            cooking essentials. 🗺️ Global Flavors: Immerse yourself in the
+            diverse flavors of Korea&lsquo;s regional dishes. 📖 🔥.
+            Kamsahamnida! 🙏
           </p>
         </div>
       </div>

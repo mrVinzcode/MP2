@@ -42,8 +42,7 @@ const About = () => {
           </p>
           <p className="text-left">Savor the journey,</p> <br />
           <p className="text-left">
-            Melvin Mangubat and Johoney Bernardino Co-Creators of [Your App
-            Name]
+            Melvin Mangubat and Johoney Bernardino Co-Creators of Taste of Seoul
           </p>
         </div>
       </div>

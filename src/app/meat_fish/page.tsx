@@ -122,7 +122,7 @@ const MeatFish = () => {
               </a>
               <div className="mt-4">
                 <h2 className="text-gray-900 title-font text-lg font-medium">
-                  Pig's Feet
+                  Pig&lsquo;s Feet
                 </h2>
                 <p className="mt-1">$21.15</p>
               </div>
