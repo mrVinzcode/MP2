@@ -5,6 +5,7 @@ import Feature from "@/components/Feature";
 import Hero from "@/components/hero";
 import Contact from "@/components/contact";
 import Link from "next/link";
+import GoogleMapComponent from "@/components/GoogleMapComponent";
 
 export default function Home() {
   return (
@@ -15,7 +16,7 @@ export default function Home() {
       <Menu />
       <Testimonials />
       <Contact />
-      <Link href="/api">Google Map</Link>
+      <GoogleMapComponent />
     </main>
   );
 }
