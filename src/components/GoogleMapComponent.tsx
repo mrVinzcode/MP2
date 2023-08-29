@@ -18,7 +18,7 @@ const GoogleMapComponent = () => {
       },
       data: {
         from: "en",
-        to: "tl",
+        to: "ko",
         e: "",
         q: [`${text}`],
       },
