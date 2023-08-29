@@ -2,10 +2,9 @@
 
 import React from "react";
 import dynamic from "next/dynamic";
-import MapBox from "../components/mapbox";
 
 const DynamicGoogleMapComponent = dynamic(
-  () => import("../components/mapbox"),
+  () => import("./GoogleMapComponent"),
   {
     ssr: false,
   }
@@ -15,17 +14,17 @@ const Contact = () => {
   return (
     <section className="text-gray-600 body-font relative">
       <div className="container px-5 py-24 mx-auto">
-        <div className="flex flex-col text-center w-full mb-12">
+        <div className="flex flex-col text-center w-full mb-12 ">
           <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">
             Contact Us
           </h1>
-          <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
+          <p className="lg:w-2/3 mx-auto leading-relaxed text-base -z-50">
             &quot;Crafting Memories, One Dish at a Time&quot;
           </p>
         </div>
-        <div className="lg:w-1/2 md:w-2/3 mx-auto">
+        <div className="lg:w-1/2 md:w-2/3 mx-auto -z-50">
           <div className="flex flex-wrap -m-2">
-            <div className="p-2 w-1/2">
+            <div className="p-2 w-1/2 -z-50">
               <div className="relative">
                 <label
                   htmlFor="name"
@@ -41,7 +40,7 @@ const Contact = () => {
                 />
               </div>
             </div>
-            <div className="p-2 w-1/2">
+            <div className="p-2 w-1/2 -z-50">
               <div className="relative">
                 <label
                   htmlFor="email"
@@ -57,7 +56,7 @@ const Contact = () => {
                 />
               </div>
             </div>
-            <div className="p-2 w-full">
+            <div className="p-2 w-full -z-50">
               <div className="relative">
                 <label
                   htmlFor="message"
@@ -77,7 +76,7 @@ const Contact = () => {
                 Button
               </button>
             </div>
-            <div className="p-2 w-full pt-8 mt-8 border-t border-gray-200 text-center">
+            <div className="p-2 w-full pt-8 mt-8 border-t border-gray-200 text-center -z-50">
               <a className="text-accent">koreanizefoodapp@email.com</a>
               <p className="leading-normal my-5">
                 49 Smith St.
@@ -86,7 +85,6 @@ const Contact = () => {
               </p>
             </div>
           </div>
-          <MapBox />
         </div>
       </div>
     </section>
