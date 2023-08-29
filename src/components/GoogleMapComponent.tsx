@@ -57,7 +57,7 @@ const GoogleMapComponent = () => {
             English to Korean Translation Services
           </h1>
           <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
-            🌏 Are you looking to bridge the language gap? We've got you
+            🌏 Are you looking to bridge the language gap? We&rsquo;ve got you
             covered! 🌏
           </p>
         </div>
@@ -74,21 +74,20 @@ const GoogleMapComponent = () => {
               value={text}
               id="full-name"
               name="full-name"
-              className="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-transparent focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+              className="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-accent focus:bg-transparent focus:ring-2 focus:ring-accent text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
               onChange={(e) => setText(e.target.value)}
             />
           </div>
           <button
             onClick={handleTranslate}
-            className="text-white bg-accent border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg"
+            className="text-white bg-accent border-0 py-2 px-8 focus:outline-none hover:text-black rounded text-lg"
           >
             Translate
           </button>
         </div>
-        {/* New div for "See Result" */}
         <div className="flex lg:w-2/3 w-full sm:flex-row flex-col mx-auto px-8 sm:space-x-4 sm:space-y-0 space-y-4 sm:px-0 items-end pt-4">
           <h1 className="py-3 px-5 text-accent text-2xl">
-            <span className="font-semibold text-black">See Result:</span>{" "}
+            <span className="font-semibold text-black">See Result:</span>
             {value}
           </h1>
         </div>
