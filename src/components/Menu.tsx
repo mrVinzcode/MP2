@@ -26,7 +26,7 @@ const Menu = () => {
       <div className="text-gray-600 body-font py-10">
         <div className="container px-5 py-24 mx-auto">
           <div className="flex flex-wrap -m-4">
-            <div className="lg:w-1/4 md:w-1/2 p-4 w-full -z-50">
+            <div className="lg:w-1/4 md:w-1/2 p-4 w-full ">
               <a className="block relative h-48 rounded overflow-hidden">
                 <Image
                   alt="ecommerce"
@@ -44,13 +44,12 @@ const Menu = () => {
                   Fried Dumplings
                 </h2>
                 <p className="mt-1">$16.00</p>
-
                 <button className="text-accent py-4">
                   <Link href="/appetizer">See more</Link>
                 </button>
               </div>
             </div>
-            <div className="lg:w-1/4 md:w-1/2 p-4 w-full -z-50">
+            <div className="lg:w-1/4 md:w-1/2 p-4 w-full ">
               <a className="block relative h-48 rounded overflow-hidden">
                 <Image
                   alt="ecommerce"
@@ -73,7 +72,7 @@ const Menu = () => {
                 </button>
               </div>
             </div>
-            <div className="lg:w-1/4 md:w-1/2 p-4 w-full -z-50">
+            <div className="lg:w-1/4 md:w-1/2 p-4 w-full ">
               <a className="block relative h-48 rounded overflow-hidden">
                 <Image
                   alt="ecommerce"
@@ -96,7 +95,7 @@ const Menu = () => {
                 </button>
               </div>
             </div>
-            <div className="lg:w-1/4 md:w-1/2 p-4 w-full -z-50">
+            <div className="lg:w-1/4 md:w-1/2 p-4 w-full ">
               <a className="block relative h-48 rounded overflow-hidden">
                 <Image
                   alt="ecommerce"
@@ -119,7 +118,7 @@ const Menu = () => {
                 </button>
               </div>
             </div>
-            <div className="lg:w-1/4 md:w-1/2 p-4 w-full -z-50">
+            <div className="lg:w-1/4 md:w-1/2 p-4 w-full ">
               <a className="block relative h-48 rounded overflow-hidden">
                 <Image
                   alt="ecommerce"
@@ -142,7 +141,7 @@ const Menu = () => {
                 </button>
               </div>
             </div>
-            <div className="lg:w-1/4 md:w-1/2 p-4 w-full -z-50">
+            <div className="lg:w-1/4 md:w-1/2 p-4 w-full ">
               <a className="block relative h-48 rounded overflow-hidden">
                 <Image
                   alt="ecommerce"
@@ -165,7 +164,7 @@ const Menu = () => {
                 </button>
               </div>
             </div>
-            <div className="lg:w-1/4 md:w-1/2 p-4 w-full -z-50">
+            <div className="lg:w-1/4 md:w-1/2 p-4 w-full ">
               <a className="block relative h-48 rounded overflow-hidden">
                 <Image
                   alt="ecommerce"

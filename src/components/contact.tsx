@@ -1,14 +1,14 @@
 "use client";
 
 import React from "react";
-import dynamic from "next/dynamic";
+// import dynamic from "next/dynamic";
 
-const DynamicGoogleMapComponent = dynamic(
-  () => import("./GoogleMapComponent"),
-  {
-    ssr: false,
-  }
-);
+// const DynamicGoogleMapComponent = dynamic(
+//   () => import("./GoogleMapComponent"),
+//   {
+//     ssr: false,
+//   }
+// );
 
 const Contact = () => {
   return (
@@ -18,13 +18,13 @@ const Contact = () => {
           <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">
             Contact Us
           </h1>
-          <p className="lg:w-2/3 mx-auto leading-relaxed text-base -z-50">
+          <p className="lg:w-2/3 mx-auto leading-relaxed text-base ">
             &quot;Crafting Memories, One Dish at a Time&quot;
           </p>
         </div>
-        <div className="lg:w-1/2 md:w-2/3 mx-auto -z-50">
+        <div className="lg:w-1/2 md:w-2/3 mx-auto">
           <div className="flex flex-wrap -m-2">
-            <div className="p-2 w-1/2 -z-50">
+            <div className="p-2 w-1/2">
               <div className="relative">
                 <label
                   htmlFor="name"
@@ -40,7 +40,7 @@ const Contact = () => {
                 />
               </div>
             </div>
-            <div className="p-2 w-1/2 -z-50">
+            <div className="p-2 w-1/2 ">
               <div className="relative">
                 <label
                   htmlFor="email"
@@ -56,7 +56,7 @@ const Contact = () => {
                 />
               </div>
             </div>
-            <div className="p-2 w-full -z-50">
+            <div className="p-2 w-full ">
               <div className="relative">
                 <label
                   htmlFor="message"
@@ -76,7 +76,7 @@ const Contact = () => {
                 Button
               </button>
             </div>
-            <div className="p-2 w-full pt-8 mt-8 border-t border-gray-200 text-center -z-50">
+            <div className="p-2 w-full pt-8 mt-8 border-t border-gray-200 text-center ">
               <a className="text-accent">koreanizefoodapp@email.com</a>
               <p className="leading-normal my-5">
                 49 Smith St.
