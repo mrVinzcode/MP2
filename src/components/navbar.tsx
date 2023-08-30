@@ -12,8 +12,8 @@ const Navbar = () => {
 
   return (
     <header>
-      <nav className="container-fluid pt-2 top-0 left-0 right-0 fixed bg-orange-100">
-        <div className="flex justify-around items-center ">
+      <nav className="container pt-2 top-0 left-0 right-0 fixed">
+        <div className="flex justify-between items-center ">
           {/*Desktop View */}
           <Link href="/">
             <Image src="/logo2.png" height={70} width={70} alt="logo" />
