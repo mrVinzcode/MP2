@@ -11,9 +11,9 @@ const Navbar = () => {
   const toggleMenu = () => setMenuOpen(!menuOpen);
 
   return (
-    <header className="relative">
-      <nav className="container pt-6 fixed top-0 left-0 right-0">
-        <div className="flex justify-between items-center">
+    <header>
+      <nav className="container-fluid pt-2 top-0 left-0 right-0 fixed bg-orange-100">
+        <div className="flex justify-around items-center ">
           {/*Desktop View */}
           <Link href="/">
             <Image src="/logo2.png" height={70} width={70} alt="logo" />
@@ -24,7 +24,7 @@ const Navbar = () => {
               한국의 맛
             </p>
           </Link>
-          <ul className="md:flex hidden gap-8 items-center font-semibold text-[14px] text-gray-500">
+          <ul className="md:flex hidden gap-8 items-center font-semibold text-[18px] text-gray-900">
             <li className="cursor-pointer text-md uppercase border-white hover:text-accent">
               {/* Pending TEXT-COLOR Blending */}
               <Link href="/">Home</Link>
