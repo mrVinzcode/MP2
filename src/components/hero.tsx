@@ -6,7 +6,7 @@ const Hero = () => {
   return (
     <section className="relative min-h-screen">
       <video
-        className="w-full h-auto absolute right-0 top-0 -z-10 object-cover opacity-80"
+        className="w-full h-auto absolute right-0 top-0 -z-10 object-cover opacity-90"
         autoPlay
         loop
         muted

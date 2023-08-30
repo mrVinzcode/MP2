@@ -26,7 +26,7 @@ const Drinks = () => {
         <div className="container px-5 py-24 mx-auto">
           <div className="flex flex-wrap -m-4">
             <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
-              <a className="block relative h-48 rounded overflow-hidden">
+              <a className="block h-48 rounded overflow-hidden">
                 <Image
                   alt="ecommerce"
                   className="object-cover object-center w-full h-full block"
@@ -43,7 +43,7 @@ const Drinks = () => {
               </div>
             </div>
             <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
-              <a className="block relative h-48 rounded overflow-hidden">
+              <a className="block h-48 rounded overflow-hidden">
                 <Image
                   alt="ecommerce"
                   className="object-cover object-center w-full h-full block"
@@ -60,7 +60,7 @@ const Drinks = () => {
               </div>
             </div>
             <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
-              <a className="block relative h-48 rounded overflow-hidden">
+              <a className="block h-48 rounded overflow-hidden">
                 <Image
                   alt="ecommerce"
                   className="object-cover object-center w-full h-full block"
@@ -77,7 +77,7 @@ const Drinks = () => {
               </div>
             </div>
             <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
-              <a className="block relative h-48 rounded overflow-hidden">
+              <a className="block h-48 rounded overflow-hidden">
                 <Image
                   alt="ecommerce"
                   className="object-cover object-center w-full h-full block"
@@ -94,7 +94,7 @@ const Drinks = () => {
               </div>
             </div>
             <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
-              <a className="block relative h-48 rounded overflow-hidden">
+              <a className="block h-48 rounded overflow-hidden">
                 <Image
                   alt="ecommerce"
                   className="object-cover object-center w-full h-full block"
@@ -111,7 +111,7 @@ const Drinks = () => {
               </div>
             </div>
             <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
-              <a className="block relative h-48 rounded overflow-hidden">
+              <a className="block h-48 rounded overflow-hidden">
                 <Image
                   alt="ecommerce"
                   className="object-cover object-center w-full h-full block"
@@ -128,7 +128,7 @@ const Drinks = () => {
               </div>
             </div>
             <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
-              <a className="block relative h-48 rounded overflow-hidden">
+              <a className="block h-48 rounded overflow-hidden">
                 <Image
                   alt="ecommerce"
                   className="object-cover object-center w-full h-full block"
@@ -145,7 +145,7 @@ const Drinks = () => {
               </div>
             </div>
             <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
-              <a className="block relative h-48 rounded overflow-hidden">
+              <a className="block h-48 rounded overflow-hidden">
                 <Image
                   alt="ecommerce"
                   className="object-cover object-center w-full h-full block"

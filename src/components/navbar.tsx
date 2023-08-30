@@ -24,7 +24,7 @@ const Navbar = () => {
               한국의 맛
             </p>
           </Link>
-          <ul className="md:flex hidden gap-8 items-center font-semibold text-[18px] text-gray-900">
+          <ul className="md:flex hidden gap-8 items-center font-semibold text-[18px] text-black">
             <li className="cursor-pointer text-md uppercase border-white hover:text-accent">
               {/* Pending TEXT-COLOR Blending */}
               <Link href="/">Home</Link>
@@ -74,31 +74,31 @@ const Navbar = () => {
             <ul>
               <li
                 onClick={() => setMenuOpen(false)}
-                className="py-2 hover:bg-accent text-center p-10 my-2"
+                className="py-2 hover:bg-accent rounded-3xl text-xl text-center p-10 my-2"
               >
                 <Link href="/">Home</Link>
               </li>
               <li
                 onClick={() => setMenuOpen(false)}
-                className="py-2 hover:bg-accent text-center p-10 my-2"
+                className="py-2 hover:bg-accent rounded-3xl text-xl text-center p-10 my-2"
               >
                 <Link href="/feature">Feature</Link>
               </li>
               <li
                 onClick={() => setMenuOpen(false)}
-                className="py-2 hover:bg-accent text-center p-10 my-2"
+                className="py-2 hover:bg-accent rounded-3xl text-xl text-center p-10 my-2"
               >
                 <Link href="/servicespage">Services</Link>
               </li>
               <li
                 onClick={() => setMenuOpen(false)}
-                className="py-2 hover:bg-accent text-center p-10 my-2"
+                className="py-2 hover:bg-accent rounded-3xl text-xl text-center p-10 my-2"
               >
                 <Link href="/menu">Menu</Link>
               </li>
               <li
                 onClick={() => setMenuOpen(false)}
-                className="py-2 hover:bg-accent text-center p-10 my-2"
+                className="py-2 hover:bg-accent rounded-3xl text-xl text-center p-10 my-2"
               >
                 <a href="/contact">Contacts</a>
               </li>
