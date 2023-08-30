@@ -62,7 +62,7 @@ const GoogleMapComponent = () => {
           </p>
         </div>
         <div className="flex lg:w-2/3 w-full sm:flex-row flex-col mx-auto px-8 sm:space-x-4 sm:space-y-0 space-y-4 sm:px-0 items-end">
-          <div className="relative flex-grow w-full">
+          <div className="flex-grow w-full">
             <label
               htmlFor="full-name"
               className="leading-7 text-sm text-gray-600 block pb-2"
