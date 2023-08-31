@@ -5,7 +5,7 @@ import Link from "next/link";
 
 const Menu = () => {
   return (
-    <section className="container pt-40">
+    <section className="container pt-40" id="menu">
       <div className="space-y-4 w-fit mx-auto text-center">
         <h2 className="text-6xl md:text-4xl font-bold">
           Our <span className="text-accent">Menu</span>

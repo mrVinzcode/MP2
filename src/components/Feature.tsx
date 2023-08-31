@@ -21,7 +21,10 @@ const Feature = () => {
 
       <Dash />
 
-      <div className="grid md:grid-cols-[1fr,37%,1fr] gap-16 mt-10">
+      <div
+        className="grid md:grid-cols-[1fr,37%,1fr] gap-16 mt-10"
+        id="feature"
+      >
         <div className="w-fit mx-auto self-end">
           <Image
             className="w-[100%] max-w-[400px] rounded-sm sm:max-w-full h-auto shadow-2xl"
