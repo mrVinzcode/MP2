@@ -15,7 +15,7 @@ const Navbar = () => {
       <nav className="container pt-2 top-0 left-0 right-0 fixed">
         <div className="flex justify-between items-center ">
           {/*Desktop View */}
-          <a href="/">
+          <Link href="/">
             <Image src="/logo2.png" height={70} width={70} alt="logo" />
             <p
               className="semi-bold text-white rounded-3xl"
@@ -23,26 +23,26 @@ const Navbar = () => {
             >
               한국의 맛
             </p>
-          </a>
+          </Link>
           <ul className="md:flex hidden gap-8 items-center font-semibold text-[18px] text-black">
             <li className="cursor-pointer text-md uppercase border-white hover:text-accent">
-              <a href="/">Home</a>
+              <Link href="/">Home</Link>
             </li>
             <li className="cursor-pointer  text-md uppercase border-white hover:text-accent">
-              <a href="#feature">Feature</a>
+              <Link href="#feature">Feature</Link>
             </li>
             <li className="cursor-pointer text-md uppercase border-white hover:text-accent">
-              <a href="#menu">Menu</a>
+              <Link href="#menu">Menu</Link>
             </li>
             <li className="cursor-pointer text-md uppercase border-white hover:text-accent">
-              <a href="#contact">Contacts</a>
+              <Link href="#contact">Contacts</Link>
             </li>
 
-            <a href="/signup">
+            <Link href="/signup">
               <button className="cursor-pointer semi-bold bg-accent text-white px-6 rounded-3xl py-2 hover:bg-accent hover:text-black duration-150 ease-in-out ">
                 Reserve Now!
               </button>
-            </a>
+            </Link>
           </ul>
           {/* Mobile Menu */}
 
@@ -69,34 +69,34 @@ const Navbar = () => {
                 onClick={() => setMenuOpen(false)}
                 className="py-2 hover:bg-accent rounded-3xl text-xl text-center p-10 my-2"
               >
-                <a href="/">Home</a>
+                <Link href="/">Home</Link>
               </li>
               <li
                 onClick={() => setMenuOpen(false)}
                 className="py-2 hover:bg-accent rounded-3xl text-xl text-center p-10 my-2"
               >
-                <a href="#feature">Feature</a>
+                <Link href="#feature">Feature</Link>
               </li>
               <li
                 onClick={() => setMenuOpen(false)}
                 className="py-2 hover:bg-accent rounded-3xl text-xl text-center p-10 my-2"
               >
-                <a href="#menu">Menu</a>
+                <Link href="#menu">Menu</Link>
               </li>
               <li
                 onClick={() => setMenuOpen(false)}
                 className="py-2 hover:bg-accent rounded-3xl text-xl text-center p-10 my-2"
               >
-                <a href="#contact">Contacts</a>
+                <Link href="#contact">Contacts</Link>
               </li>
-              <a href="/signup">
+              <Link href="/signup">
                 <button
                   onClick={() => setMenuOpen(false)}
                   className="my-2 p-10 text-center cursor-pointer semi-bold bg-accent text-white rounded-3xl py-2 hover:bg-accent hover:text-black duration-150 ease-in-out "
                 >
                   Reserve Now!
                 </button>
-              </a>
+              </Link>
             </ul>
           </div>
         </div>
