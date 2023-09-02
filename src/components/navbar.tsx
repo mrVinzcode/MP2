@@ -12,17 +12,16 @@ const Navbar = () => {
 
   return (
     <header>
-      <nav className="container pt-2 top-0 left-0 right-0 fixed">
+      <nav className="top-0 left-0 right-0 fixed bg-white">
         <div className="flex justify-between items-center ">
           {/*Desktop View */}
           <Link href="/">
-            <Image src="/logo2.png" height={70} width={70} alt="logo" />
-            <p
-              className="semi-bold text-white rounded-3xl"
-              style={{ color: "rgba(128, 128, 128, 0.7)" }}
+            <Image src="/logo2.png" className="mx-5 my-2 inline-block" height={50} width={50} alt="logo" />
+            <span
+              className="font-bold text-black mx-0 rounded-3xl"
             >
               한국의 맛
-            </p>
+            </span>
           </Link>
           <ul className="md:flex hidden gap-8 items-center font-semibold text-[18px] text-black">
             <li className="cursor-pointer text-md uppercase border-white hover:text-accent">
@@ -35,7 +34,7 @@ const Navbar = () => {
               <Link href="#menu">Menu</Link>
             </li>
             <li className="cursor-pointer text-md uppercase border-white hover:text-accent">
-              <Link href="#contact">Contacts</Link>
+              <Link href="#contact">Contact Us</Link>
             </li>
 
             <Link href="/signup">
@@ -87,7 +86,7 @@ const Navbar = () => {
                 onClick={() => setMenuOpen(false)}
                 className="py-2 hover:bg-accent rounded-3xl text-xl text-center p-10 my-2"
               >
-                <Link href="#contact">Contacts</Link>
+                <Link href="#contact">Contact Us</Link>
               </li>
               <Link href="/signup">
                 <button
