@@ -13,7 +13,7 @@ const Navbar = () => {
   return (
     <header>
       <nav className="top-0 left-0 right-0 fixed bg-white">
-        <div className="flex justify-between items-center pr-6 pl-4 ">
+        <div className="flex justify-between items-center lg:pr-6 pl-4 ">
           {/*Desktop View */}
           <Link href="/">
             <Image
@@ -51,7 +51,7 @@ const Navbar = () => {
 
           <AiOutlineMenu
             onClick={toggleMenu}
-            className="text-accent md:hidden mb-10 cursor-pointer"
+            className="text-accent md:hidden cursor-pointer"
             size={30}
           />
           <div
