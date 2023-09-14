@@ -4,9 +4,9 @@ import Link from "next/link";
 
 const Hero = () => {
   return (
-    <section className="relative min-h-screen">
+    <section className="min-h-screen">
       <video
-        className="w-full h-auto absolute right-0 top-0 -z-10 object-cover opacity-90"
+        className="w-full h-full absolute right-0 top-0 -z-10 object-cover opacity-90"
         autoPlay
         loop
         muted

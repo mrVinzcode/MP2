@@ -4,13 +4,13 @@ import Image from "next/image";
 
 const Feature = () => {
   return (
-    <section className="container pt-20">
+    <section className="container">
       <h2 className="text-6xl font-bold">Our</h2>
       <h2 className="text-6xl font-bold pt-2">
         Featured <span className="text-accent">Food</span>
       </h2>
 
-      <p className="max-w-[800px] pt-10 text-gray-700 text-2xl">
+      <p className="max-w-[800px] pt-10 text-gray-700 text-xl">
         &quot;Experience a feast of authentic Korean flavors at our table! From
         the irresistible crunch of Korean fried chicken to the colorful artistry
         of bibimbap and the delightful rolls of gimbap, each dish tells a story

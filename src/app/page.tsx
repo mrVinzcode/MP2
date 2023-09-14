@@ -4,7 +4,6 @@ import Services from "@/components/Services";
 import Feature from "@/components/Feature";
 import Hero from "@/components/hero";
 import Contact from "@/components/contact";
-import Link from "next/link";
 import GoogleMapComponent from "@/components/GoogleMapComponent";
 
 export default function Home() {

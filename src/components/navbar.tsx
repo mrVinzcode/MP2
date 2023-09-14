@@ -13,13 +13,17 @@ const Navbar = () => {
   return (
     <header>
       <nav className="top-0 left-0 right-0 fixed bg-white">
-        <div className="flex justify-between items-center ">
+        <div className="flex justify-between items-center pr-6 pl-4 ">
           {/*Desktop View */}
           <Link href="/">
-            <Image src="/logo2.png" className="mx-5 my-2 inline-block" height={50} width={50} alt="logo" />
-            <span
-              className="font-bold text-black mx-0 rounded-3xl"
-            >
+            <Image
+              src="/logo2.png"
+              className="mx-5 my-2 inline-block"
+              height={50}
+              width={50}
+              alt="logo"
+            />
+            <span className="font-bold text-black mx-0 rounded-3xl">
               한국의 맛
             </span>
           </Link>
@@ -38,7 +42,7 @@ const Navbar = () => {
             </li>
 
             <Link href="/signup">
-              <button className="cursor-pointer semi-bold bg-accent text-white px-6 rounded-3xl py-2 hover:bg-accent hover:text-black duration-150 ease-in-out ">
+              <button className="cursor-pointer semi-bold bg-accent text-white px-5 rounded-3xl py-2 hover:bg-accent hover:text-black duration-150 ease-in-out ">
                 Reserve Now!
               </button>
             </Link>

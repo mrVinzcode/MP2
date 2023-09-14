@@ -44,7 +44,7 @@ const Menu = () => {
                   Fried Dumplings
                 </h2>
                 <p className="mt-1">$16.00</p>
-                <button className="text-accent py-4">
+                <button className="my-2 p-10 text-center cursor-pointer semi-bold bg-accent text-white rounded py-1 px-2 hover:bg-accent hover:text-black duration-150 ease-in-out">
                   <Link href="/appetizer">See more</Link>
                 </button>
               </div>
@@ -67,7 +67,7 @@ const Menu = () => {
                   Bulgogi
                 </h2>
                 <p className="mt-1">$21.15</p>
-                <button className="text-accent py-4">
+                <button className="my-2 p-10 text-center cursor-pointer semi-bold bg-accent text-white rounded py-1 px-2 hover:bg-accent hover:text-black duration-150 ease-in-out">
                   <Link href="/meat_fish">See More</Link>
                 </button>
               </div>
@@ -90,7 +90,7 @@ const Menu = () => {
                   Bulgogi Pizza
                 </h2>
                 <p className="mt-1">$12.00</p>
-                <button className="text-accent py-4">
+                <button className="my-2 p-10 text-center cursor-pointer semi-bold bg-accent text-white rounded py-1 px-2 hover:bg-accent hover:text-black duration-150 ease-in-out">
                   <Link href="/pizza">See More</Link>
                 </button>
               </div>
@@ -113,7 +113,7 @@ const Menu = () => {
                   Potato Salad
                 </h2>
                 <p className="mt-1">$18.40</p>
-                <button className="text-accent py-4">
+                <button className="my-2 p-10 text-center cursor-pointer semi-bold bg-accent text-white rounded py-1 px-2 hover:bg-accent hover:text-black duration-150 ease-in-out">
                   <Link href="/salad">See More</Link>
                 </button>
               </div>
@@ -136,7 +136,7 @@ const Menu = () => {
                   Soft Tofu Stew
                 </h2>
                 <p className="mt-1">$16.00</p>
-                <button className="text-accent py-4">
+                <button className="my-2 p-10 text-center cursor-pointer semi-bold bg-accent text-white rounded py-1 px-2 hover:bg-accent hover:text-black duration-150 ease-in-out">
                   <Link href="/soup">See More</Link>
                 </button>
               </div>
@@ -159,7 +159,7 @@ const Menu = () => {
                   Easy Dango
                 </h2>
                 <p className="mt-1">$21.15</p>
-                <button className="text-accent py-4">
+                <button className="my-2 p-10 text-center cursor-pointer semi-bold bg-accent text-white rounded py-1 px-2 hover:bg-accent hover:text-black duration-150 ease-in-out">
                   <Link href="/desert">See More</Link>
                 </button>
               </div>
@@ -182,7 +182,7 @@ const Menu = () => {
                   Soju Yakult
                 </h2>
                 <p className="mt-1">$12.00</p>
-                <button className="text-accent py-4">
+                <button className="my-2 p-10 text-center cursor-pointer semi-bold bg-accent text-white rounded py-1 px-2 hover:bg-accent hover:text-black duration-150 ease-in-out">
                   <Link href="/drinks">See More</Link>
                 </button>
               </div>
