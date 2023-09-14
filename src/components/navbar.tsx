@@ -18,7 +18,7 @@ const Navbar = () => {
           <Link href="/">
             <Image
               src="/logo2.png"
-              className="mx-5 my-2 inline-block"
+              className="lg:mx-5 my-2 inline-block"
               height={50}
               width={50}
               alt="logo"
@@ -51,7 +51,7 @@ const Navbar = () => {
 
           <AiOutlineMenu
             onClick={toggleMenu}
-            className="text-accent md:hidden cursor-pointer"
+            className="text-accent md:hidden mr-3 cursor-pointer"
             size={30}
           />
           <div
