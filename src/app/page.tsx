@@ -5,6 +5,8 @@ import Feature from "@/components/Feature";
 import Hero from "@/components/hero";
 import Contact from "@/components/contact";
 import GoogleMapComponent from "@/components/GoogleMapComponent";
+import MenuTabs from "@/components/MenuTab";
+import Appetizer from "../components/dishes/appetizer";
 
 export default function Home() {
   return (
@@ -12,7 +14,9 @@ export default function Home() {
       <Hero />
       <Feature />
       <Services />
-      <Menu />
+
+      <MenuTabs />
+
       <Testimonials />
       <Contact />
       <GoogleMapComponent />

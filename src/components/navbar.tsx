@@ -35,7 +35,7 @@ const Navbar = () => {
               <Link href="#feature">Feature</Link>
             </li>
             <li className="cursor-pointer text-md uppercase border-white hover:text-accent">
-              <Link href="#menu">Menu</Link>
+              <Link href="#menutab">Menu</Link>
             </li>
             <li className="cursor-pointer text-md uppercase border-white hover:text-accent">
               <Link href="#contact">Contact Us</Link>

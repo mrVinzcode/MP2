@@ -4,7 +4,7 @@ import Image from "next/image";
 
 const Soup = () => {
   return (
-    <section className="container pt-40">
+    <section className="container pt-10">
       <div className="space-y-4 w-fit mx-auto text-center">
         <h2 className="text-4xl md:text-6xl font-bold">
           Our <span className="text-accent">Soup</span>
