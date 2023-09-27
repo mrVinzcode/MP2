@@ -10,7 +10,7 @@ import Soup from "./dishes/Soup";
 import Dessert from "./dishes/Dessert";
 import Drinks from "./dishes/Drinks";
 
-const FoodTabs = () => {
+const MenuTab = () => {
   const [activeTab, setActiveTab] = useState("Appetizer");
 
   const tabs = [
@@ -69,8 +69,6 @@ const FoodTabs = () => {
             <Appetizer />
           </div>
         </div>
-        {/* Content for the 'Appetizer' category */}
-        {/* Add your content here */}
 
         <div
           className={`${
@@ -85,8 +83,6 @@ const FoodTabs = () => {
           } text-gray-700`}
         >
           <Pizza />
-          {/* Content for the 'Pizza' category */}
-          {/* Add your content here */}
         </div>
         <div
           className={`${
@@ -94,8 +90,6 @@ const FoodTabs = () => {
           } text-gray-700`}
         >
           <Salad />
-          {/* Content for the 'Salad' category */}
-          {/* Add your content here */}
         </div>
         <div
           className={`${
@@ -103,8 +97,6 @@ const FoodTabs = () => {
           } text-gray-700`}
         >
           <Soup />
-          {/* Content for the 'Soup' category */}
-          {/* Add your content here */}
         </div>
         <div
           className={`${
@@ -112,8 +104,6 @@ const FoodTabs = () => {
           } text-gray-700`}
         >
           <Dessert />
-          {/* Content for the 'Desserts' category */}
-          {/* Add your content here */}
         </div>
         <div
           className={`${
@@ -121,12 +111,10 @@ const FoodTabs = () => {
           } text-gray-700`}
         >
           <Drinks />
-          {/* Content for the 'Drinks' category */}
-          {/* Add your content here */}
         </div>
       </div>
     </div>
   );
 };
 
-export default FoodTabs;
+export default MenuTab;

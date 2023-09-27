@@ -13,8 +13,6 @@ const Hero = () => {
         poster="/video-poster.jpg"
       >
         <source src="/header-video.mp4" type="video/mp4" />
-        {/* Pending - Add more source elements for different formats */}
-        {/* Pending Add-fallback content for browsers that do not support video */}
       </video>
       <Navbar />
 

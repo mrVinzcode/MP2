@@ -12,7 +12,7 @@ const MenuCard: React.FC<propsType> = ({ img, title, desc, price }) => {
   return (
     <div className="flex gap-2">
       <Image
-        className="w-[80px] h-[80px]"
+        className="w-[80px] h-[80px] rounded-tl-lg"
         src={img}
         width={80}
         height={80}

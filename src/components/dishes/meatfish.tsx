@@ -4,34 +4,46 @@ import MenuCard from "../MenuCard";
 
 const menuMeatFish = [
   {
-    img: "/menu_recipe/appetizer/fried_dumplings.png",
-    title: "Frid Dumplings",
+    img: "/menu_recipe/meat_fish/bulgogi.png",
+    title: "Bulgogi",
     desc: "lorem ipsum dolor sit amet, consectetur adipiscing",
-    price: "$80",
+    price: "$175",
   },
   {
-    img: "/menu_recipe/appetizer/fried_fish.png",
+    img: "/menu_recipe/meat_fish/fried_chicken.png",
+    title: "Fried Chicken",
+    desc: "lorem ipsum dolor sit amet, consectetur adipiscing",
+    price: "$180",
+  },
+  {
+    img: "/menu_recipe/meat_fish/fried_fish.png",
     title: "Fried Fish",
-    desc: "lorem ipsum dolor sit amet, consectetur adipiscing",
-    price: "$90",
-  },
-  {
-    img: "/menu_recipe/appetizer/long_rice.png",
-    title: "Long Rice Cake",
-    desc: "lorem ipsum dolor sit amet, consectetur adipiscing",
-    price: "$100",
-  },
-  {
-    img: "/menu_recipe/appetizer/seafoodpancake_tizer_1.png",
-    title: "Sea Food Panckakes",
     desc: "lorem ipsum dolor sit amet, consectetur adipiscing",
     price: "$120",
   },
   {
-    img: "/menu_recipe/appetizer/tempura.png",
-    title: "Tempura",
+    img: "/menu_recipe/meat_fish/kimchi_friedrice.png",
+    title: "Kimchi Fried Rice",
     desc: "lorem ipsum dolor sit amet, consectetur adipiscing",
-    price: "$150",
+    price: "$200",
+  },
+  {
+    img: "/menu_recipe/meat_fish/pigs_feet.png",
+    title: "Pig's Feet",
+    desc: "lorem ipsum dolor sit amet, consectetur adipiscing",
+    price: "$255",
+  },
+  {
+    img: "/menu_recipe/meat_fish/samgaetang.png",
+    title: "Samgaetang",
+    desc: "lorem ipsum dolor sit amet, consectetur adipiscing",
+    price: "$225",
+  },
+  {
+    img: "/menu_recipe/meat_fish/samgyupsal.png",
+    title: "Samgyupsal",
+    desc: "lorem ipsum dolor sit amet, consectetur adipiscing",
+    price: "$210",
   },
 ];
 

@@ -38,18 +38,6 @@ const GoogleMapComponent = () => {
   }
 
   return (
-    // <div>
-    //   <input
-    //     type="text"
-    //     value={text}
-    //     placeholder="Translation Text"
-    //     className="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-transparent focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
-    //     onChange={(e) => setText(e.target.value)}
-    //   />
-    //   <button onClick={handleTranslate}>Translate</button>
-    //   <h1>{value}</h1>
-    // </div>
-
     <section className="text-gray-600 body-font">
       <div className="container px-5 py-24 mx-auto">
         <div className="flex flex-col text-center w-full mb-12">

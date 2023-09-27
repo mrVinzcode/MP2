@@ -4,34 +4,46 @@ import MenuCard from "../MenuCard";
 
 const menuDrinks = [
   {
-    img: "/menu_recipe/appetizer/fried_dumplings.png",
+    img: "/menu_recipe/drinks/dalgona_coffee.png",
     title: "Frid Dumplings",
     desc: "lorem ipsum dolor sit amet, consectetur adipiscing",
-    price: "$80",
+    price: "$55",
   },
   {
-    img: "/menu_recipe/appetizer/fried_fish.png",
-    title: "Fried Fish",
+    img: "/menu_recipe/drinks/ice_tea.png",
+    title: "Ice Tea",
     desc: "lorem ipsum dolor sit amet, consectetur adipiscing",
-    price: "$90",
+    price: "$60",
   },
   {
-    img: "/menu_recipe/appetizer/long_rice.png",
-    title: "Long Rice Cake",
+    img: "/menu_recipe/drinks/mango_milk.png",
+    title: "Mango Milk",
     desc: "lorem ipsum dolor sit amet, consectetur adipiscing",
-    price: "$100",
+    price: "$75",
   },
   {
-    img: "/menu_recipe/appetizer/seafoodpancake_tizer_1.png",
-    title: "Sea Food Panckakes",
+    img: "/menu_recipe/drinks/soju_lemonade_cocktail.png",
+    title: "Soju Lemonade Cocktail",
+    desc: "lorem ipsum dolor sit amet, consectetur adipiscing",
+    price: "$40",
+  },
+  {
+    img: "/menu_recipe/drinks/soju_yakult.png",
+    title: "Soju Yakult",
     desc: "lorem ipsum dolor sit amet, consectetur adipiscing",
     price: "$120",
   },
   {
-    img: "/menu_recipe/appetizer/tempura.png",
-    title: "Tempura",
+    img: "/menu_recipe/drinks/strawberry_milk.png",
+    title: "Strawberry Milk",
     desc: "lorem ipsum dolor sit amet, consectetur adipiscing",
     price: "$150",
+  },
+  {
+    img: "/menu_recipe/drinks/Sweet_Rice_Punch.png",
+    title: "Sweet Rice Punch",
+    desc: "lorem ipsum dolor sit amet, consectetur adipiscing",
+    price: "$125",
   },
 ];
 const Drinks = () => {
@@ -43,7 +55,7 @@ const Drinks = () => {
           src="/menu_recipe/drinks/soju.png"
           width={500}
           height={500}
-          alt="appetizer"
+          alt="drinks"
         />
       </div>
       <div className="w-full lg:w-1/2 order-2 lg:order-2">

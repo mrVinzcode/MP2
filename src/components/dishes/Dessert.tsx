@@ -4,34 +4,28 @@ import MenuCard from "../MenuCard";
 
 const menuDessert = [
   {
-    img: "/menu_recipe/appetizer/fried_dumplings.png",
-    title: "Frid Dumplings",
+    img: "/menu_recipe/desserts/doughnut.png",
+    title: "Doughnut",
     desc: "lorem ipsum dolor sit amet, consectetur adipiscing",
     price: "$80",
   },
   {
-    img: "/menu_recipe/appetizer/fried_fish.png",
-    title: "Fried Fish",
+    img: "/menu_recipe/desserts/easy_dango.png",
+    title: "Easy Dango",
     desc: "lorem ipsum dolor sit amet, consectetur adipiscing",
     price: "$90",
   },
   {
-    img: "/menu_recipe/appetizer/long_rice.png",
-    title: "Long Rice Cake",
+    img: "/menu_recipe/desserts/mango_pancake.png",
+    title: "Mango Pancakes",
     desc: "lorem ipsum dolor sit amet, consectetur adipiscing",
     price: "$100",
   },
   {
-    img: "/menu_recipe/appetizer/seafoodpancake_tizer_1.png",
-    title: "Sea Food Panckakes",
+    img: "/menu_recipe/desserts/pressed_cookies.png",
+    title: "Pressed Cookies",
     desc: "lorem ipsum dolor sit amet, consectetur adipiscing",
     price: "$120",
-  },
-  {
-    img: "/menu_recipe/appetizer/tempura.png",
-    title: "Tempura",
-    desc: "lorem ipsum dolor sit amet, consectetur adipiscing",
-    price: "$150",
   },
 ];
 const Dessert = () => {
@@ -43,7 +37,7 @@ const Dessert = () => {
           src="/menu_recipe/desserts/corndog.png"
           width={500}
           height={500}
-          alt="appetizer"
+          alt="desserts"
         />
       </div>
       <div className="w-full lg:w-1/2 order-2 lg:order-2">

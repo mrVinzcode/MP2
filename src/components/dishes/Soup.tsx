@@ -4,34 +4,40 @@ import MenuCard from "../MenuCard";
 
 const menuSoup = [
   {
-    img: "/menu_recipe/appetizer/fried_dumplings.png",
-    title: "Frid Dumplings",
+    img: "/menu_recipe/soup/chicken_soup.png",
+    title: "Chicken Soup",
     desc: "lorem ipsum dolor sit amet, consectetur adipiscing",
-    price: "$80",
+    price: "$20",
   },
   {
-    img: "/menu_recipe/appetizer/fried_fish.png",
-    title: "Fried Fish",
+    img: "/menu_recipe/soup/cold_noodles.png",
+    title: "Cold Noodles",
     desc: "lorem ipsum dolor sit amet, consectetur adipiscing",
-    price: "$90",
+    price: "$23",
   },
   {
-    img: "/menu_recipe/appetizer/long_rice.png",
-    title: "Long Rice Cake",
+    img: "/menu_recipe/soup/fish_cak_soup.png",
+    title: "Fish Cake Soup",
     desc: "lorem ipsum dolor sit amet, consectetur adipiscing",
-    price: "$100",
+    price: "$45",
   },
   {
-    img: "/menu_recipe/appetizer/seafoodpancake_tizer_1.png",
-    title: "Sea Food Panckakes",
+    img: "/menu_recipe/soup/rice_cake_soup.png",
+    title: "Rice Cake Soup",
     desc: "lorem ipsum dolor sit amet, consectetur adipiscing",
-    price: "$120",
+    price: "$65",
   },
   {
-    img: "/menu_recipe/appetizer/tempura.png",
-    title: "Tempura",
+    img: "/menu_recipe/soup/samgaetang.png",
+    title: "Samgaetang",
     desc: "lorem ipsum dolor sit amet, consectetur adipiscing",
-    price: "$150",
+    price: "$70",
+  },
+  {
+    img: "/menu_recipe/soup/soft_tofu.png",
+    title: "Soft Tofu",
+    desc: "lorem ipsum dolor sit amet, consectetur adipiscing",
+    price: "$69",
   },
 ];
 const Soup = () => {
@@ -43,7 +49,7 @@ const Soup = () => {
           src="/menu_recipe/soup/mandu_guk.png"
           width={500}
           height={500}
-          alt="appetizer"
+          alt="soup"
         />
       </div>
       <div className="w-full lg:w-1/2 order-2 lg:order-2">

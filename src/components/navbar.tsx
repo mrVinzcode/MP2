@@ -84,7 +84,7 @@ const Navbar = () => {
                 onClick={() => setMenuOpen(false)}
                 className="py-2 hover:bg-accent rounded-3xl text-xl text-center p-10 my-2"
               >
-                <Link href="#menu">Menu</Link>
+                <Link href="#menutab">Menu</Link>
               </li>
               <li
                 onClick={() => setMenuOpen(false)}

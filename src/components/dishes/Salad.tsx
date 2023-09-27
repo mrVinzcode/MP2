@@ -4,34 +4,34 @@ import MenuCard from "../MenuCard";
 
 const menuSalad = [
   {
-    img: "/menu_recipe/appetizer/fried_dumplings.png",
-    title: "Frid Dumplings",
+    img: "/menu_recipe/salad/broccoli.png",
+    title: "Broccoli",
     desc: "lorem ipsum dolor sit amet, consectetur adipiscing",
-    price: "$80",
+    price: "$75",
   },
   {
-    img: "/menu_recipe/appetizer/fried_fish.png",
-    title: "Fried Fish",
+    img: "/menu_recipe/salad/carrot_salad.png",
+    title: "Carrot Salad",
     desc: "lorem ipsum dolor sit amet, consectetur adipiscing",
-    price: "$90",
+    price: "$55",
   },
   {
-    img: "/menu_recipe/appetizer/long_rice.png",
-    title: "Long Rice Cake",
+    img: "/menu_recipe/salad/lettuce_salad.png",
+    title: "Lettuce Salad",
     desc: "lorem ipsum dolor sit amet, consectetur adipiscing",
-    price: "$100",
+    price: "$65",
   },
   {
-    img: "/menu_recipe/appetizer/seafoodpancake_tizer_1.png",
-    title: "Sea Food Panckakes",
+    img: "/menu_recipe/salad/potato_salad.png",
+    title: "Potato Salad",
     desc: "lorem ipsum dolor sit amet, consectetur adipiscing",
-    price: "$120",
+    price: "$45",
   },
   {
-    img: "/menu_recipe/appetizer/tempura.png",
-    title: "Tempura",
+    img: "/menu_recipe/salad/scallion_salad.png",
+    title: "Scallion Salad",
     desc: "lorem ipsum dolor sit amet, consectetur adipiscing",
-    price: "$150",
+    price: "$95",
   },
 ];
 const Salad = () => {
@@ -43,7 +43,7 @@ const Salad = () => {
           src="/menu_recipe/salad/cucumber_salad.png"
           width={500}
           height={500}
-          alt="appetizer"
+          alt="salad"
         />
       </div>
       <div className="w-full lg:w-1/2 order-2 lg:order-2">
