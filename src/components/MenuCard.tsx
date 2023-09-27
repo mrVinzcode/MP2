@@ -23,7 +23,7 @@ const MenuCard: React.FC<propsType> = ({ img, title, desc, price }) => {
           <h2>{title}</h2>
           <p className="text-[14px] text-gray-600 pt-1">{desc}</p>
         </div>
-        <p className="text accent">{price}</p>
+        <p className="text-accent font-semibold">{price}</p>
       </div>
     </div>
   );

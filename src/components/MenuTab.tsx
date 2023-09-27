@@ -46,13 +46,13 @@ const FoodTabs = () => {
         </div>
       </div>
       <div className="p-14">
-        <div className="flex  justify-center text-xl font-bold border-gray-300">
+        <div className="flex flex-wrap md:flex-row justify-center text-xl font-bold mb-4 ">
           {tabs.map((category) => (
             <button
               key={category}
               className={`${
                 activeTab === category ? "border-b-4 border-accent" : ""
-              } focus:outline-none px-4 py-2`}
+              } focus:outline-none px-4  py-2 mb-2`}
               onClick={() => handleTabClick(category)}
             >
               {category}
