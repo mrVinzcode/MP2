@@ -27,12 +27,15 @@ const Navbar = () => {
               한국의 맛
             </span>
           </Link>
-          <ul className="md:flex hidden gap-8 items-center font-semibold text-[18px] text-black">
+          <ul className="md:flex hidden gap-8 items-center font-semibold text-[14px] text-black">
             <li className="cursor-pointer text-md uppercase border-white hover:text-accent">
               <Link href="/">Home</Link>
             </li>
             <li className="cursor-pointer  text-md uppercase border-white hover:text-accent">
               <Link href="#feature">Feature</Link>
+            </li>
+            <li className="cursor-pointer  text-md uppercase border-white hover:text-accent">
+              <Link href="#services">Services</Link>
             </li>
             <li className="cursor-pointer text-md uppercase border-white hover:text-accent">
               <Link href="#menutab">Menu</Link>
