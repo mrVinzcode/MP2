@@ -41,7 +41,7 @@ const Navbar = () => {
               <Link href="#contact">Contact Us</Link>
             </li>
 
-            <Link href="/signup">
+            <Link href="/reservation">
               <button className="cursor-pointer semi-bold bg-accent text-white px-5 rounded-3xl py-2 hover:bg-accent hover:text-black duration-150 ease-in-out ">
                 Reserve Now!
               </button>

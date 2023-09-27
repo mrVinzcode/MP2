@@ -29,7 +29,7 @@ const Hero = () => {
           </p>
           <p>What are you waiting for</p>
           <button className="bg-accent text-white px-6 py-2 rounded-3xl text-[14px] sm:-[16px]">
-            <Link href="#menu">View More</Link>
+            <Link href="#menutab">View More</Link>
           </button>
         </div>
       </div>

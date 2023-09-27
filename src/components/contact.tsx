@@ -9,7 +9,7 @@ const Contact = () => {
     message: "",
     isSubmitted: false, 
   });
-
+// Preparation for the contact data
   const handleChange = (e) => {
     const { name, value } = e.target;
     setFormData({ ...formData, [name]: value });
