@@ -14,7 +14,7 @@ const Contact = () => {
     const { name, value } = e.target;
     setFormData({ ...formData, [name]: value });
   };
-
+// Preparation for backend - form submission logic
   const handleSubmit = (e) => {
     e.preventDefault();
     setFormData({ ...formData, isSubmitted: true });

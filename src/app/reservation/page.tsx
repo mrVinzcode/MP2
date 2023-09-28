@@ -90,7 +90,7 @@ const ReserveNow = () => {
         )}
         <div className="lg:w-2/3 md:w-1/2 sm:pt-10 md:pr-10 lg:pl-6 pr-6">
           <h1 className="title-font font-medium text-3xl text-gray-900">
-            🥢 Welcome to Taste of Seoul! 🥢
+            🥢 Welcome to A Taste of Seoul! 🥢
           </h1>
           <p className="leading-relaxed mt-4 max-w-[500px] text-center">
             🌟 Why Taste of Korea? 🌟 <br /> Explore Authentic Recipes:
