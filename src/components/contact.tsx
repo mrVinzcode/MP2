@@ -1,5 +1,4 @@
 'use client'
-
 import React, { useState } from "react";
 
 const Contact = () => {
@@ -7,17 +6,20 @@ const Contact = () => {
     name: "",
     email: "",
     message: "",
-    isSubmitted: false, 
+    isSubmitted: false,
   });
-// Preparation for the contact data
-  const handleChange = (e:React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
+
+  const handleChange = (
+    e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
+  ) => {
     const { name, value } = e.target;
     setFormData({ ...formData, [name]: value });
   };
-// Preparation for backend - form submission logic
-  const handleSubmit = (e:React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
+
+  const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     setFormData({ ...formData, isSubmitted: true });
+    // You can add logic here to handle form submission to your backend.
   };
 
   return (
@@ -109,7 +111,7 @@ const Contact = () => {
               </div>
             </form>
           )}
-          <div className="p-2 w-full pt-8 mt-8 border-t border-gray-200 text-center ">
+          <div className="p-2 w-full pt-8 mt-8 border-t border-gray-200 text-center">
             <a className="text-accent">koreanizefoodapp@email.com</a>
             <p className="leading-normal my-5">
               49 Smith St.
