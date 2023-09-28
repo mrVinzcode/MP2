@@ -10,12 +10,12 @@ const Contact = () => {
     isSubmitted: false, 
   });
 // Preparation for the contact data
-  const handleChange = (e) => {
+  const handleChange = (e:React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
     const { name, value } = e.target;
     setFormData({ ...formData, [name]: value });
   };
 // Preparation for backend - form submission logic
-  const handleSubmit = (e) => {
+  const handleSubmit = (e:React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
     e.preventDefault();
     setFormData({ ...formData, isSubmitted: true });
   };
@@ -28,7 +28,7 @@ const Contact = () => {
             Contact Us
           </h1>
           <p className="lg:w-2/3 mx-auto leading-relaxed text-base ">
-            "Crafting Memories, One Dish at a Time"
+            &quot;Crafting Memories, One Dish at a Time&quot;
           </p>
         </div>
         <div className="lg:w-1/2 md:w-2/3 mx-auto">
@@ -43,7 +43,6 @@ const Contact = () => {
             </div>
           ) : (
             <form onSubmit={handleSubmit}>
-              {/* ... Form input fields here */}
               <div className="p-2 w-full">
                 <div>
                   <label

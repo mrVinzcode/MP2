@@ -20,7 +20,7 @@ const Testimonials = () => {
               VERY GOOD KOREAN FOOD!!!
               </h3>
               <p className="my-4">
-              &quot;Absolutely loved my dining experience at Taste of Seoul! The ambiance was simply delightful; from the warm and welcoming decor to the soothing Korean music playing in the background, it truly transported me to Seoul. The service was top-notch; the staff was attentive and friendly, making sure we had everything we needed. And the food? Oh, it was an explosion of flavors! Every dish was a culinary masterpiece, and I can't wait to come back for more.
+              &quot;Absolutely loved my dining experience at Taste of Seoul! The ambiance was simply delightful; from the warm and welcoming decor to the soothing Korean music playing in the background, it truly transported me to Seoul. The service was top-notch; the staff was attentive and friendly, making sure we had everything we needed. And the food? Oh, it was an explosion of flavors! Every dish was a culinary masterpiece, and I can&apos;t wait to come back for more.
               </p>
             </blockquote>
             <figcaption className="flex justify-center items-center space-x-3">
@@ -45,7 +45,7 @@ const Testimonials = () => {
                 Fantastic Combination
               </h3>
               <p className="my-4">
-                &quot;I recently dined at Taste of Seoul, and I was blown away by the fantastic combination of great ambiance, excellent service, and delicious food. The restaurant's cozy atmosphere and traditional Korean decor instantly put me at ease. The service staff were knowledgeable about the menu and offered fantastic recommendations. As for the food, it was like a taste journey through Korea. Every bite was a burst of authentic flavors, and I left with a happy heart and a full belly.&quot;
+                &quot;I recently dined at Taste of Seoul, and I was blown away by the fantastic combination of great ambiance, excellent service, and delicious food. The restaurant&apos;s cozy atmosphere and traditional Korean decor instantly put me at ease. The service staff were knowledgeable about the menu and offered fantastic recommendations. As for the food, it was like a taste journey through Korea. Every bite was a burst of authentic flavors, and I left with a happy heart and a full belly.&quot;
               </p>
             </blockquote>
             <figcaption className="flex justify-center items-center space-x-3">
@@ -70,7 +70,7 @@ const Testimonials = () => {
                 Exceeded Expectations 
               </h3>
               <p className="my-4">
-                &quot;Taste of Seoul exceeded all my expectations! The ambiance was spot on, providing a relaxing and authentic Korean dining experience. The service was impeccable; the staff was courteous and went out of their way to make our evening special. And the food was simply divine! Each dish was a masterpiece, and I could taste the passion and dedication that went into preparing them. This restaurant is a hidden gem, and I can't wait to share this fantastic find with my friends and family.&quot;
+                &quot;Taste of Seoul exceeded all my expectations! The ambiance was spot on, providing a relaxing and authentic Korean dining experience. The service was impeccable; the staff was courteous and went out of their way to make our evening special. And the food was simply divine! Each dish was a masterpiece, and I could taste the passion and dedication that went into preparing them. This restaurant is a hidden gem, and I can&apos;t wait to share this fantastic find with my friends and family.&quot;
               </p>
             </blockquote>
             <figcaption className="flex justify-center items-center space-x-3">
@@ -95,7 +95,7 @@ const Testimonials = () => {
                 Pure Pleasure
               </h3>
               <p className="my-4">
-                &quot;I had the pleasure of dining at Taste of Seoul, and I can't stop raving about it! The ambiance was charming, with a perfect blend of modern and traditional Korean elements. The service was impeccable; the staff was friendly and attentive without being intrusive. And the food...oh, the food was a revelation! Every dish was bursting with flavor, and the presentation was a work of art. I'm so glad I found this gem of a restaurant, and I'll definitely be returning soon for another delightful dining experience.&quot;
+                &quot;I had the pleasure of dining at Taste of Seoul, and I can&apos;t stop raving about it! The ambiance was charming, with a perfect blend of modern and traditional Korean elements. The service was impeccable; the staff was friendly and attentive without being intrusive. And the food...oh, the food was a revelation! Every dish was bursting with flavor, and the presentation was a work of art. I&apos;m so glad I found this gem of a restaurant, and I&apos;ll definitely be returning soon for another delightful dining experience.&quot;
               </p>
             </blockquote>
             <figcaption className="flex justify-center items-center space-x-3">
