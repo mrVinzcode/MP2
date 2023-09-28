@@ -110,7 +110,7 @@ const Testimonials = () => {
                 <div>Joseph McFall</div>
                 <div className="text-sm font-light text-gray-500 dark:text-gray-400">
                   CTO at Google
-                  {/* test */}
+                  {/* test 2*/}
                 </div>
               </div>
             </figcaption>
