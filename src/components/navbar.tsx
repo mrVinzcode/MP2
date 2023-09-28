@@ -38,7 +38,7 @@ const Navbar = () => {
               <Link href="#services">Services</Link>
             </li>
             <li className="cursor-pointer  text-md uppercase border-white hover:text-accent">
-            <Link href="#testimonials">Testimonials</Link>
+              <Link href="#testimonials">Testimonials</Link>
             </li>
             <li className="cursor-pointer text-md uppercase border-white hover:text-accent">
               <Link href="#menutab">Menu</Link>
@@ -50,6 +50,7 @@ const Navbar = () => {
             <Link href="/reservation">
               <button className="cursor-pointer semi-bold bg-accent text-white px-5 rounded-3xl py-2 hover:bg-accent hover:text-black duration-150 ease-in-out ">
                 Reserve Now!
+                {/* test */}
               </button>
             </Link>
           </ul>
