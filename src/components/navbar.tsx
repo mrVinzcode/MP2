@@ -99,7 +99,7 @@ const Navbar = () => {
               >
                 <Link href="#contact">Contact Us</Link>
               </li>
-              <Link href="/signup">
+              <Link href="/reservation">
                 <button
                   onClick={() => setMenuOpen(false)}
                   className="my-2 p-10 text-center cursor-pointer semi-bold bg-accent text-white rounded-3xl py-2 hover:bg-accent hover:text-black duration-150 ease-in-out "
