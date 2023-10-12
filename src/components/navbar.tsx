@@ -96,9 +96,21 @@ const Navbar = () => {
               <li
                 onClick={() => setMenuOpen(false)}
                 className="py-2 hover:bg-accent rounded-3xl text-xl text-center p-10 my-2"
+              ></li>
+              <Link href="#contact">Contact Us</Link>
+              <li
+                onClick={() => setMenuOpen(false)}
+                className="py-2 hover:bg-accent rounded-3xl text-xl text-center p-10 my-2"
               >
-                <Link href="#contact">Contact Us</Link>
+                <Link href="#testimonials">Testimonials</Link>
               </li>
+              <li
+                onClick={() => setMenuOpen(false)}
+                className="py-2 hover:bg-accent rounded-3xl text-xl text-center p-10 my-2"
+              >
+                <Link href="#services">Services</Link>
+              </li>
+
               <Link href="/reservation">
                 <button
                   onClick={() => setMenuOpen(false)}
