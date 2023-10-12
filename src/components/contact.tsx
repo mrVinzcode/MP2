@@ -111,37 +111,6 @@ const Contact = () => {
               </div>
             </form>
           )}
-          <div className="p-2 w-full pt-8 mt-8 border-t border-gray-200 text-center">
-            <a className="text-accent">koreanizefoodapp@email.com</a>
-            <p className="leading-normal my-5">
-              BLK 25 Lot 18 Carmona Estate Phase 6
-              <br />
-              Carmona Cavite, 4116
-            </p>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3865.9431154591116!2d121.04890117754073!3d14.314736984006503!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397d70bc20b5d4b%3A0x13f26ef2d4446952!2sBLK%2025%2C%2018%20Carmona%20Bypass%20Road%2C%20Carmona%2C%20Cavite!5e0!3m2!1sen!2sph!4v1697096878316!5m2!1sen!2sph" width="800" height="450"loading="lazy"></iframe>
-            <p className="leading-normal my-5 text-accent">
-              Store Hours
-            </p>
-              <br />
-              <p className="text-accent">
-              Sunday to Thursday
-              </p>
-              <p>
-              Dine-in: 11:00am to 10:00pm
-              </p>
-              <p>
-              Delivery / Pick-Up: 10:00am to 10:00pm
-              </p>
-              <p className="text-accent">
-              Friday to Saturday
-              </p>
-              <p>
-              Dine-in: 11:00am to 11:00pm
-              </p>
-              <p>
-              Delivery / Pick-Up: 10:00am to 10:00pm
-              </p>
-          </div>
         </div>
       </div>
     </section>
